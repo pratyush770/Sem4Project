@@ -12,7 +12,7 @@ nav{
 }
 nav ul{
     float:right;
-    margin-right: 55px;
+    margin-right: 80px;
 }
 nav ul li{
     display: inline-block;
@@ -93,4 +93,34 @@ footer{
     float:right;
     padding-left:-10px;
     padding-right:-15px;
+}
+.home_icon{
+    font-size:18px;
+    color:white;
+    margin-right:7px;
+}
+.contact_icon{
+    font-size:18px;
+    color:white;
+    margin-right:7px;
+}
+.health_icon{
+    font-size:18px;
+    color:white;
+    margin-right:8px;
+}
+.dis_icon{
+    font-size:18px;
+    color:white;
+    margin-right:8px;
+}
+.symp_icon{
+    font-size:18px;
+    color:white;
+    margin-right:7px;
+}
+.skull_icon{
+    font-size:18px;
+    color:white;
+    margin-right:7px;
 }

@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background:#00BFFF;
+    height:100px;
+    width: 100%;
+}
+nav ul{
+    float:right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin:0 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size:23px;
+}
+nav ul li a:hover{
+    color:blue;
+}
+.active, nav ul li:hover{
+    color:blue;
+    background:#00BFFF;
+}
+.sub-menu-1{
+    display: none;
+}
+nav ul li:hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background: #00BFFF;
+    margin-left:-15px;
+}
+nav ul li:hover .sub-menu-1 ul li{
+    display:block;
+    margin:10px;
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background: transparent;
+    border-radius:0;
+    text-align: left;
+}
+nav ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom:none;
+}
+nav ul li:hover .sub-menu-1 ul li a:hover{
+    color:blue;
+}
+img{
+    height:80px;
+    width:80px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+footer{
+    position: fixed;
+    height:30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#6C757D;
+    color: white;
+    text-align:center;  
+    padding-top:5px;
+}
+.icon{
+    font-size:28px;
+    color:white;
+    float:right;
+    padding-left:70px;
+}
+.icon1{
+    font-size:28px;
+    color:white;
+    float:right;
+    padding-left:-10px;
+}
+.icon2{
+    font-size:28px;
+    color:white;
+    float:right;
+    padding-left:-10px;
+    padding-right:-15px;
+}
+.home_icon{
+    font-size:18px;
+    color:white;
+}
+.contact_icon{
+    font-size:18px;
+    color:white;
+    margin-right:7px;
+}
+.health_icon{
+    font-size:18px;
+    color:white;
+    margin-right:8px;
+}
+.dis_icon{
+    font-size:18px;
+    color:white;
+    margin-right:8px;
+}
+.symp_icon{
+    font-size:18px;
+    color:white;
+    margin-right:7px;
+}
+.skull_icon{
+    font-size:18px;
+    color:white;
+    margin-right:7px;
+}
