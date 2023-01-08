@@ -172,6 +172,9 @@ input[type="text"].mytext{
     height:50px;
     font-size:16px;
 }
+input[type="text"]::placeholder{
+    padding-left:15px;
+}
 input[type="text"].myage{
     margin-left:80px;
     height:50px;
@@ -187,6 +190,9 @@ input[type="email"]{
     height:50px;
     font-size:16px;
 }
+input[type="email"]::placeholder{
+    padding-left:15px;
+}
 textarea{
     margin-left:15px;
 }
@@ -194,7 +200,10 @@ select{
     margin-left:90px;
     height:50px;
     width:200px;
-    font-size:20px;
+    font-size:18px;
+}
+option{
+    text-align:center;
 }
 button{
     height:50px;
