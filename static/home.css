@@ -79,7 +79,7 @@ footer{
     font-size:28px;
     color:white;
     float:right;
-    padding-left:70px;
+    padding-left:100px;
 }
 .icon1{
     font-size:28px;
@@ -94,38 +94,21 @@ footer{
     padding-left:-10px;
     padding-right:-15px;
 }
-.home_icon{
-    font-size:18px;
-    color:white;
-    margin-right:7px;
-}
-#home_active{
-    color:blue;
-}
-.contact_icon{
-    font-size:18px;
-    color:white;
-    margin-right:7px;
-}
 .health_icon{
     font-size:18px;
     color:white;
-    margin-right:8px;
 }
 .dis_icon{
     font-size:18px;
     color:white;
-    margin-right:8px;
 }
 .symp_icon{
     font-size:18px;
     color:white;
-    margin-right:7px;
 }
 .skull_icon{
     font-size:18px;
     color:white;
-    margin-right:7px;
 }
 .extra_icon{
     font-size:18px;
