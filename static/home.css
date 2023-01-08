@@ -94,19 +94,7 @@ footer{
     padding-left:-10px;
     padding-right:-15px;
 }
-.health_icon{
-    font-size:18px;
-    color:white;
-}
-.dis_icon{
-    font-size:18px;
-    color:white;
-}
-.symp_icon{
-    font-size:18px;
-    color:white;
-}
-.skull_icon{
+.drop_icon{
     font-size:18px;
     color:white;
 }
