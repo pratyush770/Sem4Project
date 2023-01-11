@@ -20,9 +20,16 @@ nav ul{
 nav ul li{
     display: inline-block;
     line-height: 90px;
-    margin:0 15px;
+    margin:0 20px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:20px;
+}
+.contact{
+    display: inline-block;
+    line-height: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-right:55px;
 }
 nav ul li a{
     color: white;
@@ -69,33 +76,50 @@ img{
 }
 footer{
     position: fixed;
-    height:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:40px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color:#6C757D;
     color: white;
-    text-align:center;  
-    padding-top:5px;
+    text-align:left; 
+    padding-left:30px; 
+    padding-top:9px;
 }
-.icon{
-    font-size:28px;
-    color:white;
-    float:right;
-    padding-left:100px;
+.copyright{
+    float:left;
+    font-size:18px;
 }
-.icon1{
-    font-size:28px;
-    color:white;
+.linkedin{
     float:right;
-    padding-left:-10px;
+    font-size:25px;
+    padding-right:50px;
+    color:white;
 }
-.icon2{
-    font-size:28px;
-    color:white;
+.github{
     float:right;
-    padding-left:-10px;
-    padding-right:-15px;
+    font-size:23px; 
+    padding-right:18px;
+    color:white;
+}
+.facebook{
+    float:right;
+    font-size:23px; 
+    padding-right:18px;
+    color:white;
+}
+.whatsapp{
+    float:right;
+    font-size:23px; 
+    padding-right:18px;
+    color:white;
+}
+.insta{
+    float:right;
+    font-size:23px; 
+    padding-right:18px;
+    color:white;
 }
 .drop_icon{
     font-size:18px;
@@ -113,4 +137,58 @@ footer{
 }
 #extra_active{
     color:blue;
+}
+input[type="text"]{
+    height:40px;
+    width:250px;
+    border:none;
+}
+input[type="text"]::placeholder{
+    font-size:17px;
+    padding-left:25px;
+}
+input[type="button"]{
+    height:40px;
+    width:100px;
+    margin-left:5px;
+    background:#dc143c;
+    color:white;
+    border:none;
+    font-size:18px;
+}
+.text1{
+    font-weight:normal;
+    padding-top:20px;
+    padding-left:20px;
+}
+.image{
+    padding-top:50px;
+    padding-left: 10px;
+    height:480px;
+    width:420px;
+}
+.text2{
+    padding-top:60px;
+    padding-left:520px;
+    font-size:25px;
+}
+.hr1{
+    border:1.2px solid black;
+    width: 26%;
+}
+.hr2{
+    border:1.2px solid black;
+    width: 37%;
+}
+.hr3{
+    border:1.2px solid black;
+    width: 45%;
+}
+.para1{
+    padding-left:520px;
+}
+.text3{
+    padding-top:20px;
+    padding-left:520px;
+    font-size:25px;
 }

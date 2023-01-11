@@ -20,9 +20,16 @@ nav ul{
 nav ul li{
     display: inline-block;
     line-height: 90px;
-    margin:0 15px;
+    margin:0 20px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:20px;
+}
+.contact{
+    display: inline-block;
+    line-height: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-right:55px;
 }
 nav ul li a{
     color: white;
@@ -69,33 +76,50 @@ img{
 }
 footer{
     position: fixed;
-    height:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:40px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color:#6C757D;
     color: white;
-    text-align:center;  
-    padding-top:5px;
+    text-align:left; 
+    padding-left:30px; 
+    padding-top:9px;
 }
-.icon{
-    font-size:28px;
-    color:white;
-    float:right;
-    padding-left:100px;
+.para1{
+    float:left;
+    font-size:18px;
 }
-.icon1{
-    font-size:28px;
-    color:white;
+.linkedin{
     float:right;
-    padding-left:-10px;
+    font-size:25px;
+    padding-right:50px;
+    color:white;
 }
-.icon2{
-    font-size:28px;
-    color:white;
+.github{
     float:right;
-    padding-left:-10px;
-    padding-right:-15px;
+    font-size:23px; 
+    padding-right:18px;
+    color:white;
+}
+.facebook{
+    float:right;
+    font-size:23px; 
+    padding-right:18px;
+    color:white;
+}
+.whatsapp{
+    float:right;
+    font-size:23px; 
+    padding-right:18px;
+    color:white;
+}
+.insta{
+    float:right;
+    font-size:23px; 
+    padding-right:18px;
+    color:white;
 }
 .drop_icon{
     font-size:18px;
@@ -118,4 +142,22 @@ footer{
 }
 #extra_active{
     color:blue;
+}
+input[type="text"]{
+    height:40px;
+    width:250px;
+    border:none;
+}
+input[type="text"]::placeholder{
+    font-size:17px;
+    padding-left:25px;
+}
+input[type="button"]{
+    height:40px;
+    width:100px;
+    margin-left:5px;
+    background:#dc143c;
+    color:white;
+    border:none;
+    font-size:18px;
 }

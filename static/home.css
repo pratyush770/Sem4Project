@@ -17,9 +17,16 @@ nav ul{
 nav ul li{
     display: inline-block;
     line-height: 90px;
-    margin:0 15px;
+    margin:0 20px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:20px;
+}
+.contact{
+    display: inline-block;
+    line-height: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-right:55px;
 }
 nav ul li a{
     color: white;
@@ -66,7 +73,7 @@ img{
 }
 footer{
     position: fixed;
-    height:30px;
+    height:50px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -108,4 +115,22 @@ footer{
     width:1536px;
     padding: 0;
     margin: 0;
+}
+input[type="text"]{
+    height:40px;
+    width:250px;
+    border:none;
+}
+input[type="text"]::placeholder{
+    font-size:17px;
+    padding-left:25px;
+}
+input[type="button"]{
+    height:40px;
+    width:100px;
+    margin-left:5px;
+    background:#dc143c;
+    color:white;
+    border:none;
+    font-size:18px;
 }
