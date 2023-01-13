@@ -69,7 +69,7 @@ nav ul li:hover .sub-menu-1 ul li a:hover{
 img{
     height:80px;
     width:80px;
-    margin-top: 5px;
+    margin-top: 9px;
     margin-left: 40px;
 }
 footer{
@@ -82,7 +82,7 @@ footer{
     background-color:#6C757D;
     color: white;
     text-align:left; 
-    padding-left:30px; 
+    padding-left:50px; 
     padding-top:9px;
 }
 .copyright{
@@ -92,7 +92,7 @@ footer{
 .linkedin{
     float:right;
     font-size:25px;
-    padding-right:50px;
+    padding-right:70px;
     color:white;
 }
 .github{
@@ -133,19 +133,20 @@ input[type="text"]::placeholder{
     padding-left:25px;
 }
 input[type="button"]{
-    height:40px;
+    height:42px;
     width:100px;
     margin-left:5px;
     background:#dc143c;
     color:white;
     border:none;
     font-size:18px;
+    border-radius: 7px;
 }
 .heading{
     font-weight:normal;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top:18px;
-    padding-left:40px;
+    padding-top:10px;
+    padding-left:55px;
     font-size: 30px;
 }
 .text1{
@@ -153,51 +154,52 @@ input[type="button"]{
     font-family: arial;
     color:rgba(0, 0, 0, 0.750);
     padding-top:12px;
-    padding-left:40px;
+    padding-left:55px;
     font-size: 21px;
 }
 .image{
-    padding-top:30px;
-    padding-left: 1px;
-    height:430px;
-    width:430px;
+    margin-top:22px;
+    margin-right: 55px;
+    height:420px;
+    width:460px;
+    border-radius: 20px;
 }
 .text2{
     font-weight: normal;
-    font-family: sans-serif;
+    font-family:sans-serif;
     padding-top:30px;
-    padding-left:520px;
-    font-size:25px;
+    padding-left:50px;
+    font-size:22px;
 }
 .myhr{
-    border:1.2px solid grey;
-    width: 27%;
+    border:1.2px solid black;
+    width: 28%;
 }
 .hr1{
-    border:1.2px solid grey;
-    width: 29%;
+    border:1.2px solid black;
+    width: 18%;
 }
 .hr2{
-    border:1.2px solid grey;
-    width: 40%;
+    border:1.2px solid black;
+    width: 24.5%;
 }
 .hr3{
-    border:1.2px solid grey;
-    width: 47.5%;
+    border:1.2px solid black;
+    width: 29%;
 }
 .para1{
-    padding-left:520px;
+    padding-left:50px;
     font-weight:normal;
-    font-family:Arial, Helvetica, sans-serif;
-    color:rgba(0, 0, 0, 0.750);
-    font-size:17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(0, 0, 0, 0.800);
+    font-size:18px;
 }
 .text3{
     font-weight: normal;
     font-family: sans-serif;
     padding-top:20px;
-    padding-left:520px;
-    font-size:25px;
+    padding-left:50px;
+    font-size:22px;
 }
 #icon{
     font-size:20px;
