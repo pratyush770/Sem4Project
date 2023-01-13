@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#eef4f7; 
+    background-color:#f8f8ff; 
 }
 nav{
     background:#00BFFF;
@@ -37,11 +37,13 @@ nav ul li a{
     font-size:22px;
 }
 nav ul li a:hover{
-    color:blue;
+    color:white;
 }
-.active, nav ul li:hover{
-    color:blue;
-    background:#00BFFF;
+.active{
+    color:white;
+    background:blue;
+    transition: .5s;
+    padding:6px 12px;
 }
 .sub-menu-1{
     display: none;
@@ -50,23 +52,19 @@ nav ul li:hover .sub-menu-1{
     display:block;
     position:absolute;
     background: #00BFFF;
-    margin-left:-15px;
+    margin-left:-1px;
 }
 nav ul li:hover .sub-menu-1 ul li{
     display:block;
-    margin:10px;
-    width:120px;
-    padding:10px;
-    border-bottom:1px dotted #fff;
+    width:5px;
     background: transparent;
     border-radius:0;
-    text-align: left;
 }
 nav ul li:hover .sub-menu-1 ul li:last-child{
     border-bottom:none;
 }
 nav ul li:hover .sub-menu-1 ul li a:hover{
-    color:blue;
+    color:white;
 }
 img{
     height:80px;
@@ -129,19 +127,6 @@ footer{
     font-size:18px;
     color:white;
     margin-left:5px;
-}
-.extra_icon{
-    font-size:18px;
-    color:white;
-    margin-right:6px;
-}
-.extra_icon1{
-    font-size:18px;
-    color:white;
-    margin-right:6px;
-}
-#extra_active{
-    color:blue;
 }
 input[type="text"]{
     height:40px;

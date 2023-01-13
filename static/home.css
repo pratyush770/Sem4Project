@@ -34,11 +34,13 @@ nav ul li a{
     font-size:22px;
 }
 nav ul li a:hover{
-    color:blue;
+    color:white;
 }
-.active, nav ul li:hover{
-    color:blue;
-    background:#00BFFF;
+.active{
+    color:white;
+    background:blue;
+    transition: .5s;
+    padding: 6px 12px;
 }
 .sub-menu-1{
     display: none;
@@ -47,40 +49,25 @@ nav ul li:hover .sub-menu-1{
     display:block;
     position:absolute;
     background: #00BFFF;
-    margin-left:-15px;
+    margin-left:-10px;
 }
 nav ul li:hover .sub-menu-1 ul li{
     display:block;
-    margin:10px;
-    width:120px;
-    padding:10px;
-    border-bottom:1px dotted #fff;
+    width:5px;
     background: transparent;
     border-radius: 0;
-    text-align: left;
 }
 nav ul li:hover .sub-menu-1 ul li:last-child{
     border-bottom:none;
 }
 nav ul li:hover .sub-menu-1 ul li a:hover{
-    color:blue;
+    color:white;
 }
 img{
     height:80px;
     width:80px;
     margin-top: 5px;
     margin-left: 40px;
-}
-footer{
-    position: fixed;
-    height:50px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#6C757D;
-    color: white;
-    text-align:center;  
-    padding-top:5px;
 }
 .icon{
     font-size:28px;
@@ -111,8 +98,8 @@ footer{
     margin-right:6px;
 }
 .background_image{
-    height:603px;
-    width:1536px;
+    height:635px;
+    width:1519px;
     padding: 0;
     margin: 0;
 }
@@ -125,7 +112,7 @@ input[type="text"]::placeholder{
     font-size:17px;
     padding-left:25px;
 }
-input[type="button"]{
+input[type="button"].nav_but{
     height:40px;
     width:100px;
     margin-left:5px;
@@ -133,4 +120,98 @@ input[type="button"]{
     color:white;
     border:none;
     font-size:18px;
+}
+.text{
+    text-align:center;
+    color:#2a2b40;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:30px;
+    padding-top:20px;
+}
+.therapy_image{
+    margin-top: 50px;
+    margin-left:120px;
+    height:400px;
+    width:600px;
+    border-radius:30px;
+}
+.text1{
+    font-weight: normal;
+    font-family: sans-serif;
+    font-style: normal;
+    padding-top: 90px;
+    padding-left:760px;
+    font-size:19px;
+    color:rgba(0, 0, 0, 0.750); 
+}
+input[type="button"].img_but{
+    height:50px;
+    width:160px;
+    margin-left:32px;
+    background:#00BFFF;
+    color:white;
+    border:none;
+    font-size:18px;
+    border-radius: 50px;
+}
+.text2{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size:30px;
+    color:black;
+    text-align: center;
+    padding-top:30px;
+}
+.data{
+    background-color: #f8f8ff;
+}
+.counsellor_image1{
+    display: inline;
+    margin-left:400px;
+    margin-top:40px;
+    height:200px;
+    width:200px;
+}
+.counsellor_image2{
+    display: inline;
+    margin-left:50px;
+    height:200px;
+    width:200px;
+}
+.counsellor_image3{
+    display: inline;
+    margin-left:50px;
+    height:200px;
+    width:200px;
+}
+.text3{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size:26px;
+    color:#4169E1;
+    padding-left: 120px;
+    padding-top:35px;
+    text-decoration: underline;
+}
+.text4{
+    font-weight: normal;
+    font-family: sans-serif;
+    font-style: normal;
+    padding-top: 15px;
+    padding-left:120px;
+    font-size:21px;
+    color:rgba(0, 0, 0, 0.750); 
+}
+input[type="button"].counsellor_but{
+    height:50px;
+    width:160px;
+    margin-left:110px;
+    background:#00BFFF;
+    color:white;
+    border:none;
+    font-size:18px;
+    border-radius: 50px;
 }
