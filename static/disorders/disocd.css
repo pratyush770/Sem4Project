@@ -79,7 +79,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#a9a9a9;
+    background-color:#7a7979;
     color: white;
     text-align:left; 
     padding-left:50px; 
@@ -127,10 +127,11 @@ input[type="text"]{
     height:40px;
     width:250px;
     border:none;
+    padding-left:25px;
+    outline:none;
 }
 input[type="text"]::placeholder{
     font-size:17px;
-    padding-left:25px;
 }
 input[type="button"]{
     height:42px;
