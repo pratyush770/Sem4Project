@@ -19,8 +19,8 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    line-height: 90px;
-    margin:0 20px;
+    line-height: 70px;
+    margin:0 22px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:20px;
 }
@@ -51,12 +51,12 @@ nav ul li a:hover{
 nav ul li:hover .sub-menu-1{
     display:block;
     position:absolute;
-    background: #00BFFF;
+    background:#00BFFF;
     margin-left:-1px;
 }
 nav ul li:hover .sub-menu-1 ul li{
     display:block;
-    width:5px;
+    width:1px;
     background: transparent;
     border-radius:0;
 }
