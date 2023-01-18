@@ -160,7 +160,7 @@ input[type="button"]{
     font-size: 21px;
 }
 .image{
-    margin-top:14px;
+    margin-top:10px;
     margin-right: 55px;
     height:385px;
     width:460px;
@@ -175,7 +175,7 @@ input[type="button"]{
     color:#2F4F4F;
 }
 .myhr{
-    border:1.2px solid black;
+    border:1.6px solid black;
     width: 27%;
 }
 .hr1{
