@@ -154,7 +154,7 @@ input[type="text"]::placeholder{
     font-weight:normal;
     font-family: arial;
     color:rgba(0, 0, 0, 0.750);
-    padding-top:12px;
+    padding-top:15px;
     padding-left:55px;
     font-size: 21px;
 }
@@ -168,7 +168,7 @@ input[type="text"]::placeholder{
 .text2{
     font-weight: normal;
     font-family:sans-serif;
-    padding-top:30px;
+    padding-top:25px;
     padding-left:50px;
     font-size:22px;
     color:#2F4F4F;
@@ -194,7 +194,7 @@ input[type="text"]::placeholder{
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgba(0, 0, 0, 0.800);
-    font-size:18px;
+    font-size:19px;
 }
 .text3{
     font-weight: normal;
