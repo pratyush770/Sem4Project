@@ -79,7 +79,7 @@ img{
     margin-top:15px;
     font-size:18px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:black;
+    color:rgba(0, 0, 0, 0.800);;
 }
 .mylist1{
     list-style-type: disc;
@@ -87,15 +87,7 @@ img{
     margin-top:10px;
     font-size:18px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:black;
-}
-.mylist2{
-    list-style-type: disc;
-    margin-left: 105px;
-    margin-top:20px;
-    font-size:20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#2F4F4F;
+    color:rgba(0, 0, 0, 0.800);;
 }
 footer{
     position: fixed;
@@ -144,10 +136,6 @@ footer{
     padding-right:18px;
     color:white;
 }
-.drop_icon{
-    font-size:18px;
-    color:white;
-}
 input[type="text"]{
     height:40px;
     width:250px;
@@ -176,7 +164,7 @@ input[type="text"]::placeholder{
 .text1{
     font-weight:normal;
     font-family: arial;
-    color:rgba(0, 0, 0, 0.750);
+    color:rgba(0, 0, 0, 0.800);
     padding-top:18px;
     padding-left:55px;
     font-size: 21px;
@@ -191,7 +179,7 @@ input[type="text"]::placeholder{
 .text2{
     font-weight:normal;
     font-family: arial;
-    color:rgba(0, 0, 0, 0.750);
+    color:#2F4F4F;
     padding-top:20px;
     padding-left:55px;
     font-size: 22px;
@@ -225,15 +213,10 @@ input[type="text"]::placeholder{
     padding-top:20px;
     padding-left:50px;
     font-size:22px;
-    color:rgba(0, 0, 0, 0.750);
+    color:#2F4F4F;
 }
 #icon{
     font-size:20px;
     padding-left:2px;
     color:#2F4F4F;
 }
-#icon1{
-    font-size:23px;
-    padding-left:3px;
-}
-

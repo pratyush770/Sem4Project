@@ -79,7 +79,7 @@ img{
     margin-top:20px;
     font-size:20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#2F4F4F;
+    color:rgba(0, 0, 0, 0.800);
 }
 .mylist1{
     list-style-type: disc;
@@ -87,7 +87,7 @@ img{
     margin-top:10px;
     font-size:20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#2F4F4F;
+    color:rgba(0, 0, 0, 0.800);
 }
 .mylist2{
     list-style-type: disc;
@@ -95,7 +95,7 @@ img{
     margin-top:20px;
     font-size:20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#2F4F4F;
+    color:rgba(0, 0, 0, 0.800);
 }
 footer{
     position: fixed;
@@ -142,10 +142,6 @@ footer{
     float:right;
     font-size:23px; 
     padding-right:18px;
-    color:white;
-}
-.drop_icon{
-    font-size:18px;
     color:white;
 }
 input[type="text"]{
@@ -200,40 +196,3 @@ input[type="text"]::placeholder{
     border:1.6px solid black;
     width: 36.3%;
 }
-.hr1{
-    border:1.2px solid #2F4F4F;
-    width: 14.2%;
-}
-.hr2{
-    border:1.2px solid #2F4F4F;
-    width: 24.5%;
-}
-.hr3{
-    border:1.2px solid #2F4F4F;
-    width: 29%;
-}
-.para1{
-    padding-left:50px;
-    font-weight:normal;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgba(0, 0, 0, 0.800);
-    font-size:18px;
-}
-.text3{
-    font-weight: normal;
-    font-family: sans-serif;
-    padding-top:20px;
-    padding-left:50px;
-    font-size:22px;
-    color:#2F4F4F;
-}
-#icon{
-    font-size:20px;
-    padding-left:2px;
-    color:#2F4F4F;
-}
-#icon1{
-    font-size:23px;
-    padding-left:3px;
-}
-

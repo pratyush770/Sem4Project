@@ -98,9 +98,24 @@
 </div>
 <div class="data1">
     <h2 class="text2">Therapy = Therapist</h2>
-    <img src="../static/images/shivakshi.jpg" class="counsellor_image1">
-    <img src="../static/images/nadeesh1.png" class="counsellor_image2">
-    <img src="../static/images/archita.png" class="counsellor_image3">
+    <img src="../static/images/shivakshi.jpg" class="counsellor_image1" id="myImg">
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img02" src="../static/images/popup1.png">
+        <div id="caption"></div>
+    </div>
+    <img src="../static/images/mannika.png" class="counsellor_image2" id="myImg1">
+    <div id="myModal1" class="modal1">
+        <span class="close1">&times;</span>
+        <img class="modal-content1" id="img02" src="../static/images/popup2.png">
+        <div id="caption1"></div>
+    </div>
+    <img src="../static/images/janvi.png" class="counsellor_image3" id="myImg2">
+    <div id="myModal2" class="modal2">
+        <span class="close2">&times;</span>
+        <img class="modal-content2" id="img02" src="../static/images/popup3.png">
+        <div id="caption2"></div>
+    </div>
     <h2 class="text3">Talk to Top Rated Counsellors Online</h2>
     <h3 class="text4">Your therapy experience depends a lot on your therapist's approach, skills, empathy and compassion. 
     All of our online counsellors hold a <br> Masters Degree in Psychology and undergo over <strong> 400+ hours</strong> of rigorous <strong>
@@ -110,8 +125,7 @@
     </h3> <br>
     <input type="button" value="Learn More" class="counsellor_but">  <br> <br> <br>
 </div>
-</div>
-<footer><div><h2 class="ftext1">Contact Us</h2>
+<footer><h2 class="ftext1">Contact Us</h2>
     <h2 class="ftext2">Our Social Links</h2> </div> <br> <br> <br> <br>
     <p class="ftext3"> <ion-icon name="call-sharp" id="myphone"></ion-icon> 9546489470</p>
     <li><a href="https://www.linkedin.com/in/pratyush-majumdar-2aa217257/" target="_self">
@@ -132,6 +146,51 @@
     <hr class="bottomhr">
     <h3 class="ftext8">Copyright &#169 2023 | All rights reserved</h3>
 </footer>
+<script>
+var modal = document.getElementById("myModal");
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+<script>
+var modal1 = document.getElementById("myModal1");
+var img1 = document.getElementById("myImg1");
+var modalImg1 = document.getElementById("img01");
+var captionText1 = document.getElementById("caption1");
+img1.onclick = function(){
+  modal1.style.display = "block";
+  modalImg1.src = this.src;
+  captionText1.innerHTML = this.alt;
+}
+var span1 = document.getElementsByClassName("close1")[0];
+span1.onclick = function() {
+  modal1.style.display = "none";
+}
+</script>
+<script>
+    var modal2 = document.getElementById("myModal2");
+    var img2 = document.getElementById("myImg2");
+    var modalImg2 = document.getElementById("img01");
+    var captionText2 = document.getElementById("caption2");
+    img2.onclick = function(){
+      modal2.style.display = "block";
+      modalImg2.src = this.src;
+      captionText2.innerHTML = this.alt;
+    }
+    var span2 = document.getElementsByClassName("close2")[0];
+    span2.onclick = function() {
+      modal2.style.display = "none";
+    }
+    </script>
         <!--IonIcon CDN-->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
