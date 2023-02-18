@@ -157,14 +157,14 @@ input[type="text"]::placeholder{
     padding-left:50px;
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgba(0, 0, 0, 0.800);
+    color:rgb(0, 0, 0);
     font-size:19px;
 }
 .para2{
     margin-left:540px;
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgba(0, 0, 0, 0.800);
+    color:rgb(0, 0, 0);
     font-size:19px;
 }
 .text3{
@@ -209,17 +209,17 @@ input[type="text"]::placeholder{
     list-style-type: disc;
     margin-left: 600px;
     margin-top:15px;
-    font-size:16px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(74, 73, 73);
+    font-size:19px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
 }
 .mylist1{
     list-style-type: disc;
     margin-left: 600px;
     margin-top:10px;
-    font-size:16px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(74, 73, 73);
+    font-size:19px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
 }
 footer{
     height:410px;
