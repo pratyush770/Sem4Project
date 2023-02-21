@@ -74,7 +74,7 @@ img{
     list-style-type: disc;
     margin-left: 105px;
     margin-top:15px;
-    font-size:19.5px;
+    font-size:20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
 }
@@ -82,7 +82,7 @@ img{
     list-style-type: disc;
     margin-left: 105px;
     margin-top:10px;
-    font-size:19.5px;
+    font-size:20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgba(0, 0, 0, 0.800);;
 }
@@ -174,7 +174,7 @@ input[type="text"]::placeholder{
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
-    font-size:19.5px;
+    font-size:20px;
 }
 .para2{
     margin-left:540px;
@@ -182,7 +182,7 @@ input[type="text"]::placeholder{
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
-    font-size:19.5px;
+    font-size:20px;
 }
 .text3{
     font-weight: normal;

@@ -108,7 +108,7 @@ input[type="text"]::placeholder{
     font-size: 21px;
 }
 .image{
-    margin-top:35px;
+    margin-top:32px;
     margin-right: 55px;
     height:410px;
     width:460px;
@@ -117,7 +117,7 @@ input[type="text"]::placeholder{
 .image1{
     margin-top:35px;
     margin-left: 45px;
-    height:420px;
+    height:410px;
     width:460px;
     border-radius: 20px;
 }
@@ -162,14 +162,29 @@ input[type="text"]::placeholder{
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
-    font-size:19px;
+    font-size:20px;
 }
 .para2{
     margin-left:540px;
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
-    font-size:19px;
+    font-size:20px;
+}
+.para3{
+    padding-left:50px;
+    font-weight:normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+}
+.para4{
+    padding-left:80px;
+    margin-top:10px;
+    font-weight:normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
+    font-size:20px;
 }
 .text3{
     font-weight: normal;

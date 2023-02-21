@@ -158,14 +158,14 @@ input[type="text"]::placeholder{
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
-    font-size:19px;
+    font-size:20px;
 }
 .para2{
     margin-left:540px;
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
-    font-size:19px;
+    font-size:20px;
 }
 .text3{
     font-weight: normal;
@@ -209,7 +209,7 @@ input[type="text"]::placeholder{
     list-style-type: disc;
     margin-left: 600px;
     margin-top:15px;
-    font-size:19.5px;
+    font-size:20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
 }
@@ -217,7 +217,7 @@ input[type="text"]::placeholder{
     list-style-type: disc;
     margin-left: 600px;
     margin-top:10px;
-    font-size:19.5px;
+    font-size:20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
 }
