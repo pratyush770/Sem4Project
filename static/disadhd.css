@@ -70,21 +70,25 @@ img{
     margin-top: 9px;
     margin-left: 55px;
 }
+video{
+    float: right;
+    margin-right:70px;
+}
 .mylist{
     list-style-type: disc;
     margin-left: 115px;
     margin-top:15px;
-    font-size:18px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(74, 73, 73);
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
 }
 .mylist1{
     list-style-type: disc;
     margin-left: 115px;
     margin-top:10px;
-    font-size:18px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(74, 73, 73);
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
 }
 input[type="text"]{
     height:40px;
