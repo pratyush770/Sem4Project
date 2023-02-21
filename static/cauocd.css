@@ -92,3 +92,231 @@ input[type="text"]::placeholder{
     font-size:18px;
     color:white;
 }
+.heading{
+    font-weight:normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top:12px;
+    padding-left:55px;
+    font-size: 30px;
+}
+.text1{
+    font-weight:normal;
+    font-family: arial;
+    color:rgba(0, 0, 0, 0.750);
+    padding-top:15px;
+    padding-left:55px;
+    font-size: 21px;
+}
+.text2{
+    font-weight:normal;
+    font-family: arial;
+    color:black;
+    padding-top:18px;
+    padding-left:55px;
+    font-size: 22px;
+}
+.text3{
+    font-weight:normal;
+    font-family: arial;
+    color:black;
+    padding-top:32px;
+    padding-left:545px;
+    font-size: 22px;
+}
+.text4{
+    font-weight:normal;
+    font-family: arial;
+    color:black;
+    padding-top:20px;
+    padding-left:545px;
+    font-size: 22px;
+}
+.text5{
+    font-weight:normal;
+    font-family: arial;
+    color:rgba(0, 0, 0, 0.750);
+    padding-top:15px;
+    padding-left:545px;
+    font-size: 21px;
+}
+.myhr{
+    border:1.6px solid black;
+    width: 13.7%;
+}
+.hr1{
+    border:1.2px solid black;
+    width:12.2%;
+}
+.hr2{
+    border:1.2px solid black;
+    width:9.7%;
+}
+.hr3{
+    border:1.2px solid black;
+    width:7%;
+}
+.hr4{
+    border:1.2px solid black;
+    width:12%;
+}
+.image{
+    margin-top:16px;
+    margin-right: 55px;
+    height:420px;
+    width:500px;
+    border-radius: 30px;
+}
+.image1{
+    margin-top:32px;
+    margin-left: 55px;
+    height:470px;
+    width:460px;
+    border-radius: 20px;
+}
+.mylist{
+    list-style-type: disc;
+    margin-left: 105px;
+    margin-top:16px;
+    font-size:21px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
+}
+.mylist1{
+    list-style-type: disc;
+    margin-left: 105px;
+    margin-top:10px;
+    font-size:21px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
+}
+footer{
+    height:410px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#ebebeb;
+    color: white;
+    text-align:center;  
+    padding-top:5px;
+}
+.ftext1{
+    display: inline;
+    font-family:arial;
+    padding-top:30px;
+    padding-left:200px;
+    font-size:24px;
+    float:left;
+    color: #17a2b8;
+}
+
+.ftext2{
+    font-family:arial;
+    padding-top:30px;
+    padding-right:200px;
+    font-size:24px;
+    float:right;
+    color: #17a2b8;
+}
+#myphone{
+    padding-left:10px;
+}
+.ftext3{
+    display: inline;
+    color:#17a2b8;
+    font-family:arial;
+    padding-top:10px;
+    padding-left:180px;
+    font-size:20px;
+    float: left;
+}
+.ftext3_2{
+    display: inline;
+    color:#17a2b8;
+    font-family:arial;
+    padding-top:20px;
+    padding-left:180px;
+    float:left;
+    font-size:20px;
+}
+.linkedin{
+    float:right;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-right:160px;
+    color:#0077b5;
+}
+.github{
+    float:right;
+    font-size:40px; 
+    padding-top: 5px;
+    padding-right:18px;
+    color: #666666;
+}
+.facebook{
+    float:right;
+    font-size:40px; 
+    padding-top: 5px;
+    padding-right:18px;
+    color:#4267B2;
+}
+.whatsapp{
+    float:right;
+    font-size:40px;
+    padding-top: 5px; 
+    padding-right:18px;
+    color:#25D366;
+}
+.insta{
+    float:right;
+    font-size:40px; 
+    padding-top: 5px;
+    padding-right:18px;
+    color:#C13584;
+}
+.ftext4{
+    color:#17a2b8;
+    font-weight: normal;
+    font-family:arial;
+    padding-top:20px;
+    padding-right: 420px;
+    font-size:20px;
+}
+input[type="text"].ftext5{
+    margin-right:95px;
+    margin-top:5px;
+    height:40px;
+    width:350px;
+}
+input[type="text"].ftext5::placeholder{
+    padding-left:45px;
+    font-size: 16px;
+}
+.ftext6{
+    color:rgba(0, 0, 0, 0.750);
+    font-weight: normal;
+    font-family:arial;
+    padding-top:25px;
+    padding-right: 90px;
+    font-size:19px;
+}
+input[type="button"].ftext7{
+    background-image:linear-gradient( to right, #89cebe, #7bc9c2, #6ec4c6, #63bfca, #5bb9ce, #4fb4d2, #47afd6, #43a9da, #38a3df, #359de4, #3b96e7, #488ee9 );
+    width:150px;
+    height:40px;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    margin-right:120px;
+    font-size:17px;
+}
+.bottomhr{
+    border:0.2px solid lightgrey;
+}
+.ftext8{
+    font-weight:normal;
+    font-family: monospace;
+    font-size:20px;
+    padding-top:7px;
+    padding-right:100px;
+    color:#17a2b8;
+}
