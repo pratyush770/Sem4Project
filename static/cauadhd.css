@@ -74,7 +74,7 @@ img{
     list-style-type: disc;
     margin-left: 105px;
     margin-top:15px;
-    font-size:19px;
+    font-size:19.5px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
 }
@@ -82,7 +82,7 @@ img{
     list-style-type: disc;
     margin-left: 105px;
     margin-top:10px;
-    font-size:18px;
+    font-size:19.5px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgba(0, 0, 0, 0.800);;
 }
@@ -124,10 +124,10 @@ input[type="text"]::placeholder{
     font-size: 21px;
 }
 .image{
-    margin-top:28px;
+    margin-top:40px;
     margin-right: 55px;
     height:440px;
-    width:460px;
+    width:520px;
     border-radius: 30px;
 }
 .image1{
@@ -174,7 +174,7 @@ input[type="text"]::placeholder{
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
-    font-size:19px;
+    font-size:19.5px;
 }
 .para2{
     margin-left:540px;
@@ -182,7 +182,7 @@ input[type="text"]::placeholder{
     font-weight:normal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
-    font-size:19px;
+    font-size:19.5px;
 }
 .text3{
     font-weight: normal;
