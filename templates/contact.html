@@ -66,7 +66,7 @@
         <div class="column">
     <h2 class="text">Contact Us <hr class="hr1"></h2>
     <h2 class="text1">Questions, concerns, curiosities? We'd love to hear <br>
-         from you. <a class="demo" href="">Click here</a> to book a demo class.</h2>
+         from you. If you need assistance, please fill out the <br> form and we'd be happy to help!</h2>
     <h2 class="text2">We're listening <hr class="hr2"></h2>
     <p class="text3">Your message is important to us. A team member will usually<br> respond to you within 3 office days. 
         If it is a matter that<br> requires team dialogue, our response may take longer.</p>
@@ -100,8 +100,13 @@
                     <option value="china">China</option>
                     <option value="japan">Japan</option>
                   </select><br> <br> <br>
-                    <button type="submit"> Submit </button> <button
-                  type="reset"> Reset </button>
+                    <input type="button" value="Submit" id="myImg">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img02" src="../static/images/thankyou.jpg">
+                        <div id="caption"></div>
+                    </div>
+                    <input type="reset" value="Reset">
               </form>
         </div>
         </div> 
@@ -128,6 +133,21 @@
             <h3 class="ftext8">Copyright &#169 2023 | All rights reserved</h3>
         </footer>
         <!--IonIcon CDN-->
+        <script>
+            var modal = document.getElementById("myModal");
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+        </script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

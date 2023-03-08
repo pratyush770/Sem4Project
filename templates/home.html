@@ -68,14 +68,14 @@
     <img src="../static/images/therapy.jpg" class="therapy_image" align="left">
     <h3 class="text1">The first and foremost purpose of online therapy is to give you a safe space <br>
          for disclosure. In your online therapy journey, you will know what an <br> uninterrupted 
-         conversation feels like. It's easier to open up because you feel <br> not judged but understood. 
-         Further, online therapy helps identify triggers <br> for your emotions and allows you to discover your 
-         deep-rooted concerns.<br> With guidance and practical tools, you will feel happier, stronger, and
-         grow, <br> at every step. <br> <br> You can Improve Relationships, Build Confidence, Overcome Peer
+         conversation feels like. It's easier to open up because you feel <br> not judged but understood.
+         Further, online therapy helps identify triggers for <br> your emotions and allows you to discover your 
+         deep-rooted concerns.<br> <br> You can Improve Relationships, Build Confidence, Overcome Peer
          Pressure, <br> Cope with Stress, Beat Anxiety & Outgrow Depression. It will EMPOWER <br> you with
-          skill sets to <strong>become the best version of yourself.</strong>
-    </h3> <br>
-    <input type="button" value="Learn More" class="img_but">
+        skill sets to <strong>become the best version of yourself.</strong> <br> <br>
+        By the time you're done, you will not only have solved the problem that brought <br> you in, but you will 
+        have learned new skills so you can better cope with <br> whatever challenges arise in the future.
+    </h3>
 </div>
 <br><br> <br> <br> <br>
 <div class="data">
@@ -125,11 +125,14 @@
     <h2 class="text3">Talk to Top Rated Counsellors Online</h2>
     <h3 class="text4">Your therapy experience depends a lot on your therapist's approach, skills, empathy and compassion. 
     All of our online counsellors hold a <br> Masters Degree in Psychology and undergo over <strong> 400+ hours</strong> of rigorous <strong>
-    training and supervision. </strong> With expertise in various <br> psychotherapeutic techniques, they have <strong>
-    assisted 5Lac+ clients </strong>to deal with the toughest life challenges and thrive in personal
-    and <br> professional space.
+    training and supervision. </strong> <span id="dots"></span> <span id="more"> <br> <br> With expertise in various psychotherapeutic techniques, they have <strong>
+    assisted 5Lac+ clients </strong>to deal with the toughest life challenges and <br> thrive in personal
+    and professional space. We are committed and serious about your well being and hence handpick 
+    passionate and <br> thorough professionals and put them through a rigorous training on online therapy approach 
+    to bring you the most fulfilling experience, <br> always. <a class="demo" href="../templates/contact.html">Click here</a> to book a demo class. </span>
     </h3> <br>
-    <input type="button" value="Learn More" class="counsellor_but">  <br> <br> <br>
+    <button onclick="myFunction()" id="myBtn" class="counsellor_but">Read more</button>
+  <br> <br> <br>
 </div>
 <footer><h2 class="ftext1">Contact Us</h2>
     <h2 class="ftext2">Our Social Links</h2> </div> <br> <br> <br> <br>
@@ -148,7 +151,12 @@
     <h3 class="ftext4">Get Your Daily Scoop Of Happiness!</h3> <br>
     <input type="text" placeholder="Enter your email address" class="ftext5"> <br>
     <h3 class="ftext6">Thank you for subscribing, we'll be in your inbox soon.</h3> <br>
-    <input type="button" value="Subscribe" class="ftext7"> <br> <br> <br>
+    <input type="button" value="Subscribe" class="ftext7" id="myImg3">
+    <div id="myModal3" class="modal3">
+        <span class="close3">&times;</span>
+        <img class="modal-content3" id="img02" src="../static/images/confirm.jpg">
+        <div id="caption3"></div>
+    </div> <br> <br> <br>
     <hr class="bottomhr">
     <h3 class="ftext8">Copyright &#169 2023 | All rights reserved</h3>
 </footer>
@@ -197,6 +205,39 @@ span1.onclick = function() {
       modal2.style.display = "none";
     }
     </script>
+<script>
+    var modal3 = document.getElementById("myModal3");
+    var img3 = document.getElementById("myImg3");
+    var modalImg3 = document.getElementById("img01");
+    var captionText3 = document.getElementById("caption3");
+    img3.onclick = function(){
+      modal3.style.display = "block";
+      modalImg3.src = this.src;
+      captionText3.innerHTML = this.alt;
+    }
+    var span3 = document.getElementsByClassName("close3")[0];
+    span3.onclick = function() {
+      modal3.style.display = "none";
+    }
+</script>
+<script>
+    function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read More"; 
+    moreText.style.display = "none";
+    } 
+    else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read Less"; 
+    moreText.style.display = "inline";
+    }
+    }
+</script>
         <!--IonIcon CDN-->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
