@@ -130,10 +130,30 @@
         <h3 class="ftext4">Get Your Daily Scoop Of Happiness!</h3> <br>
         <input type="text" placeholder="Enter your email address" class="ftext5"> <br>
         <h3 class="ftext6">Thank you for subscribing, we'll be in your inbox soon.</h3> <br>
-        <input type="button" value="Subscribe" class="ftext7"> <br> <br> <br>
+        <input type="button" value="Subscribe" class="ftext7" id="myImg">
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img02" src="../static/images/confirm.jpg">
+            <div id="caption"></div>
+        </div> <br> <br> <br>
         <hr class="bottomhr">
         <h3 class="ftext8">Copyright &#169 2023 | All rights reserved</h3>
     </footer>
+    <script>
+        var modal = document.getElementById("myModal");
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        var span = document.getElementsByClassName("close")[0];
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+    </script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

@@ -390,6 +390,7 @@ input[type="text"]::placeholder{
     width: 80%;
     max-width: 850px;
     height: 470px;
+    border-radius: 20px;
   }
 .modal-content3{
     animation-name: zoom;
