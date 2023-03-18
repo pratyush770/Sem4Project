@@ -93,11 +93,6 @@ img{
     font-size:18px;
     color:white;
 }
-.extra_icon{
-    font-size:20px;
-    color:white;
-    margin-right:6px;
-}
 .feedbackform{
     width: 880px;
     height: 535px;
@@ -108,7 +103,6 @@ img{
     position: absolute;
     transform: translate(-50%,-50%,);
     box-sizing: border-box;
-    border-radius: 10px;
 }
 h1{
     margin-top: 40px;
