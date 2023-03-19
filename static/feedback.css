@@ -17,7 +17,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     line-height: 70px;
-    margin:0 29px;
+    margin:0 29.6px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:20px;
 }
@@ -96,21 +96,22 @@ img{
 .feedbackform{
     width: 880px;
     height: 535px;
-    background: #c4c3d0;
+    background-image:linear-gradient(to right,#b3b3b5,#bfbfc1,#d7d7da);
     color: #fff;
     top:22%;
     left:21%;
     position: absolute;
     transform: translate(-50%,-50%,);
     box-sizing: border-box;
+    border-radius: 10px;
 }
 h1{
     margin-top: 40px;
     margin-bottom:8px;
     text-align: center;
     font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#fff ;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;  
     text-transform: uppercase;
 }
 .mylabel{
@@ -175,7 +176,7 @@ textarea::placeholder{
     margin-left:50px;
     margin-top: 25px;
     font-size:20px;
-    background:	brown;
+    background:brown;
     border:none; 
     cursor: pointer;
     border-radius:5px;
@@ -287,6 +288,8 @@ input[type="text"].ftext5{
     margin-top:5px;
     height:40px;
     width:350px;
+    border:none;
+    outline: none;
 }
 input[type="text"].ftext5::placeholder{
     padding-left:45px;
