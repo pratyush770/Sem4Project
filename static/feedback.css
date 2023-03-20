@@ -96,7 +96,7 @@ img{
 .feedbackform{
     width: 880px;
     height: 535px;
-    background-image:linear-gradient(to right,#b3b3b5,#bfbfc1,#d7d7da);
+    background-image:linear-gradient(to right,rgb(42, 41, 41),#363636,#4c4c4d);
     color: #fff;
     top:22%;
     left:21%;
@@ -176,13 +176,13 @@ textarea::placeholder{
     margin-left:50px;
     margin-top: 25px;
     font-size:20px;
-    background:brown;
+    background:white;
     border:none; 
     cursor: pointer;
-    border-radius:5px;
+    border-radius:30px;
 }
 .mybutton1{
-    color: white;
+    color: black;
 }
 input[type="radio"]{
     margin-left:40px;
