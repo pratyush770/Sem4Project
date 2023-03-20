@@ -76,27 +76,9 @@ img{
     float:right;
     padding-left:100px;
 }
-.icon1{
-    font-size:28px;
-    color:white;
-    float:right;
-    padding-left:-10px;
-}
-.icon2{
-    font-size:28px;
-    color:white;
-    float:right;
-    padding-left:-10px;
-    padding-right:-15px;
-}
 .drop_icon{
     font-size:18px;
     color:white;
-}
-.extra_icon{
-    font-size:18px;
-    color:white;
-    margin-right:6px;
 }
 .background_image{
     height:635px;
@@ -140,10 +122,10 @@ input[type="text"]::placeholder{
     padding-top:20px;
 }
 .therapy_image{
-    margin-top: 50px;
-    margin-left:120px;
-    height:400px;
-    width:600px;
+    margin-top: 30px;
+    margin-left:70px;
+    height:390px;
+    width:550px;
     border-radius:30px;
 }
 .text1{
@@ -151,8 +133,8 @@ input[type="text"]::placeholder{
     font-family: arial;
     font-style: normal;
     padding-top: 105px;
-    padding-left:760px;
-    font-size:19px;
+    padding-left:660px;
+    font-size:20px;
     color:rgba(0, 0, 0, 0.750); 
 }
 .text2{
@@ -194,6 +176,14 @@ input[type="text"]::placeholder{
     border-top-right-radius: 20px;
 }
 .card_image2{
+    padding:0;
+    margin:0;
+    height:250px;
+    width:365px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card_image3{
     padding:0;
     margin:0;
     height:250px;
@@ -439,7 +429,7 @@ input[type="text"]::placeholder{
     font-style: normal;
     font-size:26px;
     color:#4169E1;
-    padding-left: 120px;
+    padding-left: 100px;
     padding-top:35px;
     text-decoration: underline;
 }
@@ -448,14 +438,14 @@ input[type="text"]::placeholder{
     font-family: sans-serif;
     font-style: normal;
     padding-top: 15px;
-    padding-left:120px;
+    padding-left:100px;
     font-size:21px;
     color:rgba(0, 0, 0, 0.750); 
 }
 .counsellor_but{
     height:50px;
     width:160px;
-    margin-left:110px;
+    margin-left:90px;
     background-image:linear-gradient( to right, #89cebe, #7bc9c2, #6ec4c6, #63bfca, #5bb9ce, #4fb4d2, #47afd6, #43a9da, #38a3df, #359de4, #3b96e7, #488ee9 );
     color:white;
     border:none;
@@ -602,4 +592,246 @@ input[type="button"].ftext7{
 }
 .demo:hover{
     color:purple;
+}
+
+/* Respnosiveness */
+
+@media only screen and (min-device-width :951px) and (max-device-width : 1316px){
+    nav{
+        height:180px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:75px;
+    }
+    nav ul li{
+        margin:0 17px;
+    }
+    nav ul li a{
+        font-size:21px;
+    }
+    img{
+        height:140px;
+        width:140px;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    .contact{
+        line-height: 170px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-right:19px;
+    }
+    .active{
+        padding: 6px 12px;
+    }
+    .sub-menu-1{
+        display:none;
+    }
+    nav ul li:hover .sub-menu-1{
+        display:block;
+        position:absolute;
+        background:#00BFFF;
+        margin-left:-1px;
+    }
+    nav ul li:hover .sub-menu-1 ul li{
+        display:block;
+        height: 60px;
+        background: transparent;
+        border-radius: 0;
+        padding-left:-1px;
+    }
+    .drop_icon{
+        font-size:13px;
+    }
+    hr{
+        width:100%;
+    
+    }
+    .background_image{
+        height:610px;
+        width:100%;
+        padding: 0;
+        margin: 0;
+    }
+    .therapy_image{
+        margin-top:38px;
+        margin-left:60px;
+        height:450px;
+        width:580px;
+    }
+    .text{
+        text-align: center;
+        font-size:29px;
+        padding-top:20px;
+    }
+    .text1{
+        padding-top: 100px;
+        padding-left:660px;
+        font-size:20px; 
+    }
+    .card{
+        display:inline-block;
+        width:25.3%;
+        margin-left:75px;
+    }
+    .card_image1{
+        height:230px;
+        width:324px;
+    }
+    .card_image2{
+        height:250px;
+        width:324px;
+    }
+    .card_image3{
+        height:250px;
+        width:324px;
+    }
+    .card_text1{
+        font-size: 22px;
+        padding-top:18px;
+        text-decoration: underline;
+    }
+    .card_text2{
+        font-size:17px;
+        padding-top:15px;
+    }
+    .mytext{
+        text-align:center;
+        font-size:28px;
+    }
+    .data{
+        width:100%;
+    }
+    .data1{
+        width:100%;
+    }
+    .counsellor_image1{
+        display: inline;
+        margin-left:270px;
+        margin-top:40px;
+        height:200px;
+        width:200px;
+    }
+    .counsellor_image2{
+        display: inline;
+        margin-left:60px;
+        margin-top:40px;
+        height:200px;
+        width:200px;
+    }
+    .counsellor_image3{
+        display: inline;
+        margin-left:60px;
+        margin-top:40px;
+        height:200px;
+        width:200px;
+    }
+    .text3{
+        font-size:23px;
+        padding-left: 65px;
+        padding-top:35px;
+    }
+    .text4{
+        padding-top: 15px;
+        padding-left:65px;
+        font-size:20px;
+    }
+    .counsellor_but{
+        height:50px;
+        width:140px;
+        margin-left:50px;
+        font-size:18px;
+    }
+    footer{
+        height:370px;
+        width: 100%;
+        text-align:center;  
+        padding-top:5px;
+    }
+    .ftext1{
+        padding-top:25px;
+        padding-left:155px;
+        font-size:28px;
+    }
+    .ftext2{
+        padding-top:25px;
+        padding-right:155px;
+        font-size:28px;
+    }
+    #myphone{
+        margin-left:-48px;
+        font-size: 30px;
+    }
+    .ftext3{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:23px;
+    }
+    .ftext3_2{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:23px;
+    }
+    .github{
+        font-size:30px; 
+        padding-top: 5px;
+        padding-right:55px;
+        
+    }
+    .linkedin{
+        font-size: 40px;
+        padding-top: 5px;
+        padding-right:150px;
+    }
+    .facebook{
+        font-size:30px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .whatsapp{
+        font-size:30px;
+        padding-top: 5px; 
+        padding-right:25px;
+    }
+    .insta{
+        font-size:30px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .ftext4{
+        padding-top:10px;
+        padding-right: 360px;
+        font-size:22px;
+    }
+    input[type="text"].ftext5{
+        margin-right:65px;
+        margin-top:1px;
+        height:40px;
+        width:390px;
+    }
+    input[type="text"].ftext5::placeholder{
+        padding-left:70px;
+        font-size: 16px;
+    }
+    .ftext6{
+        padding-top:15px;
+        padding-right: 70px;
+        font-size:20px;
+    }
+    input[type="button"].ftext7{
+        width:140px;
+        height:40px;
+        margin-right:80px;
+        font-size:17px;
+        margin-bottom: -15px;
+    }
+    .ftext8{
+        font-size:20px;
+        padding-top:7px;
+        padding-right:80px;
+    }
+    .bottomhr{
+        width:100%;
+    }
 }
