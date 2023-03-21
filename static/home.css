@@ -132,8 +132,9 @@ input[type="text"]::placeholder{
     font-weight: normal;
     font-family: arial;
     font-style: normal;
-    padding-top: 105px;
+    padding-top: 75px;
     padding-left:660px;
+    padding-right:70px;
     font-size:20px;
     color:rgba(0, 0, 0, 0.750); 
 }
@@ -171,7 +172,7 @@ input[type="text"]::placeholder{
     padding:0;
     margin:0;
     height:250px;
-    width:365.5px;
+    width:369px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -179,7 +180,7 @@ input[type="text"]::placeholder{
     padding:0;
     margin:0;
     height:250px;
-    width:365.5px;
+    width:369px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -187,7 +188,7 @@ input[type="text"]::placeholder{
     padding:0;
     margin:0;
     height:250px;
-    width:365.5px;
+    width:369px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -439,6 +440,7 @@ input[type="text"]::placeholder{
     font-style: normal;
     padding-top: 15px;
     padding-left:100px;
+    padding-right: 70px;
     font-size:21px;
     color:rgba(0, 0, 0, 0.750); 
 }
@@ -597,7 +599,7 @@ input[type="button"].ftext7{
 /* Respnosiveness */
 
 /* for nest hub max*/
-@media (max-device-width : 1316px){
+@media only screen and (max-device-width : 1316px){
     nav{
         height:180px;
         width:100%;
@@ -667,9 +669,10 @@ input[type="button"].ftext7{
         padding-top:20px;
     }
     .text1{
-        padding-top: 100px;
+        padding-top: 90px;
         padding-left:660px;
         font-size:20px; 
+        padding-right: 30px;
     }
     .card{
         display:inline-block;
@@ -737,6 +740,7 @@ input[type="button"].ftext7{
         padding-top: 15px;
         padding-left:65px;
         font-size:20px;
+        padding-right: 25px;
     }
     .counsellor_but{
         height:50px;
@@ -837,7 +841,7 @@ input[type="button"].ftext7{
     }
 }
 /* for nest hub */
-@media (max-device-width : 1024px){
+@media only screen and (max-device-width : 1024px){
     nav{
         height:140px;
         width:100%;
@@ -907,14 +911,17 @@ input[type="button"].ftext7{
         padding-top:20px;
     }
     .text1{
-        padding-top: 80px;
+        padding-top: 70px;
         padding-left:525px;
         font-size:17.5px; 
+        padding-right:30px;
+        margin-bottom: -20px;
     }
     .card{
         display:inline-block;
         width:25.3%;
         margin-left:60px;
+
     }
     .card_image1{
         height:200px;
@@ -944,6 +951,7 @@ input[type="button"].ftext7{
     }
     .data{
         width:100%;
+        margin-bottom: -20px;
     }
     .data1{
         width:100%;
@@ -976,6 +984,7 @@ input[type="button"].ftext7{
     .text4{
         padding-left:55px;
         font-size:20px;
+        padding-right:30px;
     }
     .counsellor_but{
         height:50px;
@@ -1092,7 +1101,7 @@ input[type="button"].ftext7{
     }
 }
 /* for ipad air */
-@media (max-device-width : 820px) and (max-device-height:1180px){
+@media only screen and (max-device-width : 820px) and (max-device-height:1180px){
     nav{
         height:140px;
         width:100%;
@@ -1351,7 +1360,7 @@ input[type="button"].ftext7{
     }
 }
 /* for iphone SE */
-@media (max-device-width : 375px) and (max-device-height:667px){
+@media only screen and (max-device-width : 375px) and (max-device-height:667px){
     nav{
         height:80px;
         width:100%;
@@ -1426,6 +1435,7 @@ input[type="button"].ftext7{
         padding-left:20px;
         font-size:13px; 
         margin-bottom: -70px;
+        padding-right: 15px;
     }
     .card{
         display:block;
