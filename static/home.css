@@ -171,7 +171,7 @@ input[type="text"]::placeholder{
     padding:0;
     margin:0;
     height:250px;
-    width:365px;
+    width:369px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -179,7 +179,7 @@ input[type="text"]::placeholder{
     padding:0;
     margin:0;
     height:250px;
-    width:365px;
+    width:369px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -187,7 +187,7 @@ input[type="text"]::placeholder{
     padding:0;
     margin:0;
     height:250px;
-    width:365px;
+    width:369px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -596,7 +596,8 @@ input[type="button"].ftext7{
 
 /* Respnosiveness */
 
-@media only screen and (min-device-width :951px) and (max-device-width : 1316px){
+/* for nest hub max*/
+@media (max-device-width : 1316px){
     nav{
         height:180px;
         width:100%;
@@ -828,6 +829,520 @@ input[type="button"].ftext7{
     }
     .ftext8{
         font-size:20px;
+        padding-top:7px;
+        padding-right:80px;
+    }
+    .bottomhr{
+        width:100%;
+    }
+}
+/* for nest hub */
+@media (max-device-width : 1024px){
+    nav{
+        height:140px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:60px;
+    }
+    nav ul li{
+        margin:0 12px;
+    }
+    nav ul li a{
+        font-size:17px;
+    }
+    img{
+        height:100px;
+        width:100px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .contact{
+        line-height: 135px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-right:19px;
+    }
+    .active{
+        padding: 6px 12px;
+    }
+    .sub-menu-1{
+        display:none;
+    }
+    nav ul li:hover .sub-menu-1{
+        display:block;
+        position:absolute;
+        background:#00BFFF;
+        margin-left:-1px;
+    }
+    nav ul li:hover .sub-menu-1 ul li{
+        display:block;
+        height: 60px;
+        background: transparent;
+        border-radius: 0;
+        padding-left:-1px;
+    }
+    .drop_icon{
+        font-size:13px;
+    }
+    hr{
+        width:100%;
+    
+    }
+    .background_image{
+        height:450px;
+        width:100%;
+        padding: 0;
+        margin: 0;
+    }
+    .therapy_image{
+        margin-top:38px;
+        margin-left:50px;
+        height:420px;
+        width:450px;
+    }
+    .text{
+        text-align: center;
+        font-size:27px;
+        padding-top:20px;
+    }
+    .text1{
+        padding-top: 80px;
+        padding-left:525px;
+        font-size:17.5px; 
+    }
+    .card{
+        display:inline-block;
+        width:25.3%;
+        margin-left:60px;
+    }
+    .card_image1{
+        height:200px;
+        width:260px;
+        margin-top: -15px;
+        margin-bottom: 5px;
+    }
+    .card_image2{
+        height:180px;
+        width:260px;
+    }
+    .card_image3{
+        height:180px;
+        width:260px;
+    }
+    .card_text1{
+        font-size: 21px;
+        padding-top:18px;
+    }
+    .card_text2{
+        font-size:16px;
+        padding-top:15px;
+    }
+    .mytext{
+        text-align:center;
+        font-size:27px;
+    }
+    .data{
+        width:100%;
+    }
+    .data1{
+        width:100%;
+    }
+    .counsellor_image1{
+        display: inline;
+        margin-left:190px;
+        margin-top:40px;
+        height:180px;
+        width:180px;
+    }
+    .counsellor_image2{
+        display: inline;
+        margin-left:60px;
+        margin-top:40px;
+        height:180px;
+        width:180px;
+    }
+    .counsellor_image3{
+        display: inline;
+        margin-left:60px;
+        margin-top:40px;
+        height:180px;
+        width:180px;
+    }
+    .text3{
+        font-size:22px;
+        padding-left: 55px;
+    }
+    .text4{
+        padding-left:55px;
+        font-size:20px;
+    }
+    .counsellor_but{
+        height:50px;
+        width:140px;
+        margin-left:45px;
+        font-size:18px;
+    }
+    .modal-content {
+        margin-top: 5px;
+        width: 59%;
+        height: 320px;
+    }
+    .modal-content1 {
+        margin-top: 5px;
+        width: 59%;
+        height: 320px;
+    }
+    .modal-content2 {
+        margin-top: 5px;
+        width: 59%;
+        height: 320px;
+    }
+    .modal-content3 {
+        margin-top: 5px;
+        width: 65%;
+        height: 320px;
+    }
+    footer{
+        height:370px;
+        width: 100%;
+        text-align:center;  
+        padding-top:5px;
+    }
+    .ftext1{
+        padding-left:155px;
+        font-size:22px;
+    }
+    .ftext2{
+        padding-right:155px;
+        font-size:22px;
+    }
+    #myphone{
+        margin-left:-60px;
+        font-size: 25px;
+    }
+    .ftext3{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:21px;
+    }
+    .ftext3_2{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:21px;
+    }
+    .github{
+        font-size:25px; 
+        padding-top: 5px;
+        padding-right:75px;
+        
+    }
+    .linkedin{
+        font-size: 25px;
+        padding-top: 5px;
+        padding-right:135px;
+    }
+    .facebook{
+        font-size:25px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .whatsapp{
+        font-size:25px;
+        padding-top: 5px; 
+        padding-right:25px;
+    }
+    .insta{
+        font-size:25px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .ftext4{
+        padding-right: 350px;
+        font-size:19px;
+    }
+    input[type="text"].ftext5{
+        margin-right:75px;
+        margin-top:1px;
+        height:40px;
+        width:320px;
+    }
+    input[type="text"].ftext5::placeholder{
+        padding-left:30px;
+        font-size: 16px;
+    }
+    .ftext6{
+        padding-right: 70px;
+        font-size:20px;
+    }
+    input[type="button"].ftext7{
+        width:120px;
+        height:40px;
+        margin-right:80px;
+        font-size:17px;
+        margin-bottom: -15px;
+    }
+    .ftext8{
+        font-size:20px;
+        padding-top:7px;
+        padding-right:80px;
+    }
+    .bottomhr{
+        width:100%;
+    }
+}
+/* for ipad air */
+@media (max-device-width : 820px){
+    nav{
+        height:140px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:55px;
+    }
+    nav ul li{
+        margin:0 6px;
+    }
+    nav ul li a{
+        font-size:15px;
+    }
+    img{
+        height:80px;
+        width:80px;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    .contact{
+        line-height: 140px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-right:9px;
+    }
+    .active{
+        padding: 6px 8px;
+    }
+    .sub-menu-1{
+        display:none;
+    }
+    nav ul li:hover .sub-menu-1{
+        display:block;
+        position:absolute;
+        background:#00BFFF;
+        margin-left:-1px;
+    }
+    nav ul li:hover .sub-menu-1 ul li{
+        display:block;
+        height: 60px;
+        background: transparent;
+        border-radius: 0;
+        padding-left:-1px;
+    }
+    .drop_icon{
+        font-size:13px;
+    }
+    hr{
+        width:100%;
+    }
+    .background_image{
+        height:480px;
+        width:100%;
+        padding: 0;
+        margin: 0;
+    }
+    .therapy_image{
+        margin-top:38px;
+        margin-left:40px;
+        height:420px;
+        width:370px;
+    }
+    .text{
+        text-align: center;
+        font-size:26px;
+        padding-top:20px;
+    }
+    .text1{
+        padding-top: 80px;
+        padding-left:430px;
+        font-size:16px; 
+    }
+    .card{
+        display:inline-block;
+        width:25.5%;
+        margin-left:45px;
+    }
+    .card_image1{
+        height:158px;
+        width:210px;
+        margin-bottom:-1px;
+    }
+    .card_image2{
+        height:150px;
+        width:210px;
+    }
+    .card_image3{
+        height:150px;
+        width:210px;
+    }
+    .card_text1{
+        font-size: 19px;
+        padding-top:18px;
+    }
+    .card_text2{
+        font-size:16px;
+        padding-top:15px;
+    }
+    .mytext{
+        text-align:center;
+        font-size:26px;
+    }
+    .data{
+        width:100%;
+    }
+    .data1{
+        width:100%;
+    }
+    .counsellor_image1{
+        display: inline;
+        margin-left:120px;
+        margin-top:40px;
+        height:150px;
+        width:150px;
+    }
+    .counsellor_image2{
+        display: inline;
+        margin-left:60px;
+        margin-top:40px;
+        height:150px;
+        width:150px;
+    }
+    .counsellor_image3{
+        display: inline;
+        margin-left:60px;
+        margin-top:40px;
+        height:150px;
+        width:150px;
+    }
+    .text3{
+        font-size:23px;
+        padding-left: 45px;
+        padding-top:35px;
+    }
+    .text4{
+        padding-top: 15px;
+        padding-left:45px;
+        font-size:19px;
+    }
+    .counsellor_but{
+        height:50px;
+        width:140px;
+        margin-left:35px;
+        font-size:18px;
+    }
+    .modal-content {
+        margin-top: 170px;
+        width: 75%;
+        height: 570px;
+    }
+    .modal-content1 {
+        margin-top: 170px;
+        width: 75%;
+        height: 570px;
+    }
+    .modal-content2 {
+        margin-top: 170px;
+        width: 75%;
+        height: 570px;
+    }
+    .modal-content3 {
+        margin-top: 170px;
+        width: 75%;
+        height: 570px;
+    }
+    footer{
+        height:395px;
+        width: 100%;
+        text-align:center;  
+        padding-top:5px;
+    }
+    .ftext1{
+        padding-top:25px;
+        padding-left:105px;
+        font-size:24px;
+    }
+    .ftext2{
+        padding-top:25px;
+        padding-right:105px;
+        font-size:24px;
+    }
+    #myphone{
+        margin-left:-110px;
+        font-size: 28px;
+    }
+    .ftext3{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:22.5px;
+    }
+    .ftext3_2{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:22.5px;
+    }
+    .github{
+        font-size:28px; 
+        padding-top: 5px;
+        padding-right:125px;
+        
+    }
+    .linkedin{
+        font-size: 28px;
+        padding-top: 5px;
+        padding-right:80px;
+    }
+    .facebook{
+        font-size:28px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .whatsapp{
+        font-size:28px;
+        padding-top: 5px; 
+        padding-right:25px;
+    }
+    .insta{
+        font-size:28px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .ftext4{
+        padding-top:10px;
+        padding-right: 310px;
+        font-size:19px;
+    }
+    input[type="text"].ftext5{
+        margin-right:65px;
+        margin-top:1px;
+        height:40px;
+        width:230px;
+    }
+    input[type="text"].ftext5::placeholder{
+        padding-left:5px;
+        font-size: 14px;
+    }
+    .ftext6{
+        padding-top:15px;
+        padding-right: 70px;
+        font-size:18px;
+    }
+    input[type="button"].ftext7{
+        width:100px;
+        height:40px;
+        margin-right:80px;
+        font-size:15px;
+        margin-bottom: -15px;
+    }
+    .ftext8{
+        font-size:22px;
         padding-top:7px;
         padding-right:80px;
     }
