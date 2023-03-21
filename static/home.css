@@ -1350,3 +1350,268 @@ input[type="button"].ftext7{
         width:100%;
     }
 }
+/* for iphone SE */
+@media (max-device-width : 375px){
+    nav{
+        height:80px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:16px;
+    }
+    nav ul li{
+        margin:0 1px;
+    }
+    nav ul li a{
+        font-size:7.2px;
+    }
+    img{
+        height:50px;
+        width:50px;
+        margin-top: 15px;
+        margin-left:10px;
+    }
+    .contact{
+        line-height: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-right:2px;
+    }
+    .active{
+        padding: 4px 4px;
+    }
+    .sub-menu-1{
+        display:none;
+    }
+    nav ul li:hover .sub-menu-1{
+        display:block;
+        position:absolute;
+        background:#00BFFF;
+        margin-left:-1px;
+    }
+    nav ul li:hover .sub-menu-1 ul li{
+        display:block;
+        height: 50px;
+        background: transparent;
+        border-radius: 0;
+        padding-left:-1px;
+    }
+    .drop_icon{
+        font-size:6px;
+    }
+    hr{
+        height:7px;
+        width:100%;
+    }
+    .background_image{
+        height:240px;
+        width:100%;
+        padding: 0;
+        margin: 0;
+    }
+    .therapy_image{
+        margin-top:20px;
+        margin-left:65px;
+        height:200px;
+        width:240px;
+    }
+    .text{
+        text-align: center;
+        font-size:18px;
+        padding-top:15px;
+    }
+    .text1{
+        padding-top:200px;
+        margin-top:40px;
+        padding-left:20px;
+        font-size:13px; 
+        margin-bottom: -70px;
+    }
+    .card{
+        display:block;
+        width:70.5%;
+        margin-left:55px;
+    }
+    .card_image1{
+        height:130px;
+        width:265px;
+    }
+    .card_image2{
+        height:150px;
+        width:265px;
+    }
+    .card_image3{
+        height:150px;
+        width:265px;
+    }
+    .card_text1{
+        font-size: 16px;
+        padding-top:10px;
+    }
+    .card_text2{
+        font-size:14px;
+        padding-top:15px;
+    }
+    .mytext{
+        text-align:center;
+        font-size:18px;
+    }
+    .data{
+        width:100%;
+        margin-bottom: -40px;
+    }
+    .data1{
+        width:100%;
+    }
+    .counsellor_image1{
+        display: block;
+        margin-left:120px;
+        margin-top:30px;
+        height:120px;
+        width:120px;
+    }
+    .counsellor_image2{
+        margin-left:120px;
+        margin-top:40px;
+        height:120px;
+        width:120px;
+    }
+    .counsellor_image3{
+        margin-left:120px;
+        margin-top:40px;
+        height:120px;
+        width:120px;
+    }
+    .text3{
+        font-size:18px;
+        padding-left: 30px;
+        padding-top:25px;
+    }
+    .text4{
+        padding-top: 15px;
+        padding-left:30px;
+        font-size:17px;
+    }
+    .counsellor_but{
+        height:50px;
+        width:120px;
+        margin-left:20px;
+        font-size:16px;
+    }
+    .modal-content {
+        margin-top: 65px;
+        width: 75%;
+        height: 230px;
+    }
+    .modal-content1 {
+        margin-top: 65px;
+        width: 75%;
+        height: 230px;
+    }
+    .modal-content2 {
+        margin-top: 65px;
+        width: 75%;
+        height: 230px;
+    }
+    .modal-content3 {
+        margin-top: 65px;
+        width: 75%;
+        height: 230px;
+    }
+    .text2{
+        font-size:20px;
+        padding-top:20px;
+    }
+    footer{
+        height:385px;
+        width: 100%;
+        text-align:center;  
+        padding-top:5px;
+    }
+    .ftext1{
+        padding-top:35px;
+        padding-left:30px;
+        font-size:18px;
+    }
+    .ftext2{
+        padding-top:35px;
+        padding-right:30px;
+        font-size:18px;
+    }
+    #myphone{
+        margin-left:-230px;
+        font-size: 18px;
+    }
+    .ftext3{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:16px;
+    }
+    .ftext3_2{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:16px;
+    }
+    .github{
+        font-size:18px; 
+        padding-top: 5px;
+        padding-right:60px;
+        
+    }
+    .linkedin{
+        font-size: 18px;
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .facebook{
+        font-size:18px; 
+        padding-top: 5px;
+        padding-right:15px;
+    }
+    .whatsapp{
+        font-size:18px;
+        padding-top: 5px; 
+        padding-right:15px;
+    }
+    .insta{
+        font-size:18px; 
+        padding-top: 5px;
+        padding-right:15px;
+    }
+    .ftext4{
+        padding-top:40px;
+        padding-right: 10px;
+        font-size:15px;
+    }
+    input[type="text"].ftext5{
+        margin-right:10px;
+        margin-top:1px;
+        height:40px;
+        width:250px;
+    }
+    input[type="text"].ftext5::placeholder{
+        padding-left:10px;
+        font-size: 14px;
+    }
+    .ftext6{
+        padding-top:15px;
+        padding-right: 10px;
+        font-size:14.5px;
+    }
+    input[type="button"].ftext7{
+        width:80px;
+        height:40px;
+        margin-right:20px;
+        font-size:13px;
+        margin-bottom: -15px;
+    }
+    .ftext8{
+        font-size:14.5px;
+        padding-top:7px;
+        padding-right:15px;
+    }
+    .bottomhr{
+        width:100%;
+        height:0;
+    }
+}
