@@ -924,7 +924,7 @@ input[type="button"].ftext7{
         height: 50px;
         background: transparent;
         border-radius: 0;
-        padding-left:-1px;
+        padding-left:1px;
     }
     .drop_icon{
         font-size:6px;
