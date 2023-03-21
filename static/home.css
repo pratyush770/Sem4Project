@@ -678,15 +678,15 @@ input[type="button"].ftext7{
     }
     .card_image1{
         height:230px;
-        width:324px;
+        width:325px;
     }
     .card_image2{
         height:250px;
-        width:324px;
+        width:324.5px;
     }
     .card_image3{
         height:250px;
-        width:324px;
+        width:325px;
     }
     .card_text1{
         font-size: 22px;
@@ -1092,7 +1092,7 @@ input[type="button"].ftext7{
     }
 }
 /* for ipad air */
-@media (max-device-width : 820px){
+@media (max-device-width : 820px) and (max-device-height:1180px){
     nav{
         height:140px;
         width:100%;
@@ -1351,7 +1351,7 @@ input[type="button"].ftext7{
     }
 }
 /* for iphone SE */
-@media (max-device-width : 375px){
+@media (max-device-width : 375px) and (max-device-height:667px){
     nav{
         height:80px;
         width:100%;
@@ -1613,264 +1613,5 @@ input[type="button"].ftext7{
     .bottomhr{
         width:100%;
         height:0;
-    }
-}
-/* for surface pro 7 */
-@media (max-device-width : 912px){
-    nav{
-        height:140px;
-        width:100%;
-    }
-    nav ul{
-        margin-right:60px;
-    }
-    nav ul li{
-        margin:0 7.5px;
-    }
-    nav ul li a{
-        font-size:16.5px;
-    }
-    img{
-        height:80px;
-        width:80px;
-        margin-top: 30px;
-        margin-left: 25px;
-    }
-    .contact{
-        line-height: 135px;
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:14px;
-        margin-right:9px;
-    }
-    .active{
-        padding: 6px 9px;
-    }
-    .sub-menu-1{
-        display:none;
-    }
-    nav ul li:hover .sub-menu-1{
-        display:block;
-        position:absolute;
-        background:#00BFFF;
-        margin-left:-1px;
-    }
-    nav ul li:hover .sub-menu-1 ul li{
-        display:block;
-        height: 60px;
-        background: transparent;
-        border-radius: 0;
-        padding-left:-1px;
-    }
-    .drop_icon{
-        font-size:16px;
-    }
-    hr{
-        width:100%;
-    }
-    .background_image{
-        height:580px;
-        width:100%;
-        padding: 0;
-        margin: 0;
-    }
-    .therapy_image{
-        margin-top:38px;
-        margin-left:40px;
-        height:430px;
-        width:370px;
-    }
-    .text{
-        text-align: center;
-        font-size:28px;
-        padding-top:20px;
-    }
-    .text1{
-        padding-top: 80px;
-        padding-left:430px;
-        font-size:18px; 
-    }
-    .card{
-        display:inline-block;
-        width:25.5%;
-        margin-left:55px;
-    }
-    .card_image1{
-        height:155px;
-        width:233px;
-        margin-bottom:-1px;
-    }
-    .card_image2{
-        height:150px;
-        width:234px;
-    }
-    .card_image3{
-        height:150px;
-        width:233px;
-    }
-    .card_text1{
-        font-size: 19px;
-        padding-top:18px;
-    }
-    .card_text2{
-        font-size:15.5px;
-        padding-top:15px;
-    }
-    .mytext{
-        text-align:center;
-        font-size:26px;
-    }
-    .data{
-        width:100%;
-    }
-    .data1{
-        width:100%;
-    }
-    .counsellor_image1{
-        display: inline;
-        margin-left:150px;
-        margin-top:40px;
-        height:150px;
-        width:150px;
-    }
-    .counsellor_image2{
-        display: inline;
-        margin-left:60px;
-        margin-top:40px;
-        height:150px;
-        width:150px;
-    }
-    .counsellor_image3{
-        display: inline;
-        margin-left:60px;
-        margin-top:40px;
-        height:150px;
-        width:150px;
-    }
-    .text3{
-        font-size:23px;
-        padding-left: 45px;
-        padding-top:35px;
-    }
-    .text4{
-        padding-top: 15px;
-        padding-left:45px;
-        font-size:19px;
-    }
-    .counsellor_but{
-        height:50px;
-        width:140px;
-        margin-left:35px;
-        font-size:18px;
-    }
-    .modal-content {
-        margin-top: 250px;
-        width: 75%;
-        height: 570px;
-    }
-    .modal-content1 {
-        margin-top: 250px;
-        width: 75%;
-        height: 570px;
-    }
-    .modal-content2 {
-        margin-top: 250px;
-        width: 75%;
-        height: 570px;
-    }
-    .modal-content3 {
-        margin-top: 250px;
-        width: 75%;
-        height: 570px;
-    }
-    footer{
-        height:425px;
-        width: 100%;
-        text-align:center;  
-        padding-top:5px;
-    }
-    .ftext1{
-        padding-top:25px;
-        padding-left:105px;
-        font-size:24px;
-    }
-    .ftext2{
-        padding-top:25px;
-        padding-right:105px;
-        font-size:24px;
-    }
-    #myphone{
-        margin-left:-110px;
-        font-size: 28px;
-    }
-    .ftext3{
-        padding-top:1px;
-        padding-left:180px;
-        font-size:22.5px;
-    }
-    .ftext3_2{
-        padding-top:1px;
-        padding-left:180px;
-        font-size:22.5px;
-    }
-    .github{
-        font-size:28px; 
-        padding-top: 5px;
-        padding-right:125px;
-        
-    }
-    .linkedin{
-        font-size: 28px;
-        padding-top: 5px;
-        padding-right:80px;
-    }
-    .facebook{
-        font-size:28px; 
-        padding-top: 5px;
-        padding-right:25px;
-    }
-    .whatsapp{
-        font-size:28px;
-        padding-top: 5px; 
-        padding-right:25px;
-    }
-    .insta{
-        font-size:28px; 
-        padding-top: 5px;
-        padding-right:25px;
-    }
-    .ftext4{
-        padding-top:50px;
-        padding-right: 50px;
-        font-size:20px;
-    }
-    input[type="text"].ftext5{
-        margin-right:55px;
-        margin-top:1px;
-        height:40px;
-        width:340px;
-    }
-    input[type="text"].ftext5::placeholder{
-        padding-left:35px;
-        font-size: 18px;
-    }
-    .ftext6{
-        padding-top:15px;
-        padding-right: 60px;
-        font-size:19px;
-    }
-    input[type="button"].ftext7{
-        width:120px;
-        height:40px;
-        margin-right:80px;
-        font-size:17px;
-        margin-bottom: -15px;
-    }
-    .ftext8{
-        font-size:24px;
-        padding-top:9px;
-        padding-right:80px;
-    }
-    .bottomhr{
-        width:100%;
     }
 }
