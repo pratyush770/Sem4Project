@@ -64,7 +64,7 @@ nav ul li:hover .sub-menu-1 ul li:last-child{
 nav ul li:hover .sub-menu-1 ul li a:hover{
     color:white;
 }
-img{
+.logo{
     height:80px;
     width:80px;
     margin-top: 9px;
@@ -396,7 +396,7 @@ input[type="button"].ftext7{
     nav ul li a{
         font-size:21px;
     }
-    img{
+    .logo{
         height:140px;
         width:140px;
         margin-top: 20px;
@@ -467,7 +467,7 @@ input[type="button"].ftext7{
     nav ul li a{
         font-size:17px;
     }
-    img{
+    .logo{
         height:100px;
         width:100px;
         margin-top: 20px;
@@ -663,29 +663,29 @@ input[type="button"].ftext7{
 /* for ipad air */
 @media only screen and (max-device-width : 820px) and (max-device-height:1180px){
     nav{
-        height:140px;
+        height:165px;
         width:100%;
     }
     nav ul{
-        margin-right:55px;
+        margin-right:90px;
+        margin-left:20px;
     }
     nav ul li{
-        margin:0 6px;
+        line-height:80px;
+        margin:0 27.5px;
     }
     nav ul li a{
-        font-size:15px;
+        font-size:22.5px;
     }
-    img{
-        height:80px;
-        width:80px;
-        margin-top: 30px;
-        margin-left: 25px;
+    .logo{
+        display:none;
     }
     .contact{
-        line-height: 140px;
+        line-height: 5px;
         font-family:Arial, Helvetica, sans-serif;
         font-size:14px;
-        margin-right:9px;
+        margin-right:20px;
+        margin-left: 140px;
     }
     .active{
         padding: 6px 8px;
@@ -707,7 +707,7 @@ input[type="button"].ftext7{
         padding-left:-1px;
     }
     .drop_icon{
-        font-size:13px;
+        font-size:15px;
     }
     hr{
         width:100%;
@@ -883,29 +883,30 @@ input[type="button"].ftext7{
 /* for iphone SE */
 @media only screen and (max-device-width : 375px) and (max-device-height:667px){
     nav{
-        height:80px;
+        height:110px;
         width:100%;
     }
     nav ul{
-        margin-right:16px;
+        margin-right:45px;
+        margin-left:10px;
     }
     nav ul li{
-        margin:0 1px;
+        margin:0 7px;
+        line-height:50px;
     }
     nav ul li a{
-        font-size:7.2px;
+        font-size:12.2px;
+
     }
-    img{
-        height:50px;
-        width:50px;
-        margin-top: 15px;
-        margin-left:10px;
+    .logo{
+        display:none;
     }
     .contact{
         line-height: 20px;
         font-family:Arial, Helvetica, sans-serif;
         font-size:14px;
-        margin-right:2px;
+        margin-right:10px;
+        margin-left:45px;
     }
     .active{
         padding: 4px 4px;
@@ -927,7 +928,7 @@ input[type="button"].ftext7{
         padding-left:1px;
     }
     .drop_icon{
-        font-size:6px;
+        font-size:10px;
     }
     hr{
         height:7px;
