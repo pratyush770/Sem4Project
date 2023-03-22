@@ -64,7 +64,7 @@ nav ul li:hover .sub-menu-1 ul li:last-child{
 nav ul li:hover .sub-menu-1 ul li a:hover{
     color:white;
 }
-img{
+.logo{
     height:80px;
     width:80px;
     margin-top: 9px;
@@ -183,6 +183,18 @@ input[type="text"]::placeholder{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(0, 0, 0);
     font-size:20px;
+    padding-right:40px;
+    margin-bottom:-10px;
+}
+.para3{
+    margin-left:540px;
+    margin-top:20px;
+    font-weight:normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+    padding-right:40px;
+    margin-bottom:-10px;
 }
 .text3{
     font-weight: normal;
@@ -203,7 +215,7 @@ input[type="text"]::placeholder{
 .text5{
     font-weight: normal;
     font-family: sans-serif;
-    padding-top:20px;
+    padding-top:30px;
     margin-left:540px;
     font-size:22px;
     color:#2F4F4F;
@@ -391,4 +403,290 @@ input[type="button"].ftext7{
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+/* Respnosiveness */
+
+/* for nest hub max*/
+@media (max-device-width : 1316px){
+    nav{
+        height:180px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:75px;
+    }
+    nav ul li{
+        margin:0 17px;
+    }
+    nav ul li a{
+        font-size:21px;
+    }
+    .logo{
+        height:140px;
+        width:140px;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    .contact{
+        line-height: 170px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-right:19px;
+    }
+    .active{
+        padding: 6px 12px;
+    }
+    .drop_icon{
+        font-size:16px;
+    }
+    .text1{
+        font-size: 20px;
+        padding-right:30px;
+    }
+    .image{
+        margin-top:20px;
+        margin-right: 55px;
+        height:440px;
+        width:480px;
+        border-radius: 30px;
+    }
+    .image1{
+        margin-top:75px;
+        margin-left: 45px;
+        height:440px;
+        width:460px;
+        border-radius: 20px;
+    }
+    .text2{
+        font-size: 21.5px;
+    }
+    .myhr{
+        width: 28%;
+    }
+    .hr1{
+        width: 11.3%;
+    }
+    .hr2{
+        width: 25.8%;
+    }
+    .hr3{
+        width: 15.6%;
+    }
+    .hr4{
+        width: 24.7%;
+    }
+    .hr5{
+        width: 17.7%;
+    }
+    .text3{
+        font-size:21.5px;
+    }
+    .text4{
+        font-size:21.5px;
+    }
+    .text5{
+        padding-top:30px;
+        font-size:21.5px;
+    }
+}
+/* for nest hub */
+@media (max-device-width : 1024px){
+    nav{
+        height:140px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:60px;
+    }
+    nav ul li{
+        margin:0 12px;
+    }
+    nav ul li a{
+        font-size:17px;
+    }
+    .logo{
+        height:100px;
+        width:100px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .contact{
+        line-height: 135px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-right:19px;
+    }
+    .active{
+        padding: 6px 12px;
+    }
+    .drop_icon{
+        font-size:13px;
+    }
+    hr{
+        width:100%;
+    }
+    .heading{
+        font-size: 25px;
+    }
+    .text1{
+        font-size: 19px;
+    }
+    .image{
+        height:420px;
+        width:440px;
+    }
+    .image1{
+        margin-top:35px;
+        margin-left: 45px;
+        height:410px;
+        width:420px;
+        border-radius: 20px;
+    }
+    .text2{
+        font-size: 20px;
+    }
+    .myhr{
+        width: 29.7%;
+    }
+    .hr1{
+        width: 13.5%;
+    }
+    .hr2{
+        width: 30.2%;
+    }
+    .hr3{
+        width: 18.6%;
+    }
+    .hr4{
+        width: 32.2%;
+    }
+    .hr5{
+        width: 12.8%;
+    }
+    .para1{
+        font-size:19px;
+    }
+    .para2{
+        margin-left:490px;
+        font-size:19px;
+        padding-right:40px;
+    }
+    .para3{
+        margin-left:50px;
+        font-size:19px;
+        margin-bottom:-20px;
+    }
+    .text3{
+        font-size:20px;
+    }
+    .text4{
+        margin-top:30px;
+        margin-left:490px;
+        font-size:20px;
+    }
+    .text5{
+        margin-left:50px;
+        font-size:20px;
+        margin-top:50px;
+    }
+    .mylist{
+        font-size:18.5px;
+    }
+    .mylist1{
+        font-size:18.5px;
+    }
+    .modal-content{
+        margin-top: 5px;
+        width: 65%;
+        height: 320px;
+    }
+    footer{
+        height:390px;
+        width: 100%;
+        text-align:center;  
+        padding-top:5px;
+    }
+    .ftext1{
+        margin-top: 1px;
+        padding-left:155px;
+        font-size:22px;
+    }
+    .ftext2{
+        margin-top: 1px;
+        padding-right:155px;
+        font-size:22px;
+    }
+    #myphone{
+        margin-left:-60px;
+        font-size: 25px;
+    }
+    .ftext3{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:21px;
+    }
+    .ftext3_2{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:21px;
+    }
+    .github{
+        font-size:25px; 
+        padding-top: 5px;
+        padding-right:75px;
+        
+    }
+    .linkedin{
+        font-size: 25px;
+        padding-top: 5px;
+        padding-right:135px;
+    }
+    .facebook{
+        font-size:25px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .whatsapp{
+        font-size:25px;
+        padding-top: 5px; 
+        padding-right:25px;
+    }
+    .insta{
+        font-size:25px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .ftext4{
+        padding-right: 350px;
+        font-size:19px;
+    }
+    input[type="text"].ftext5{
+        margin-right:75px;
+        margin-top:1px;
+        height:40px;
+        width:320px;
+    }
+    input[type="text"].ftext5::placeholder{
+        padding-left:30px;
+        font-size: 16px;
+    }
+    .ftext6{
+        padding-right: 70px;
+        font-size:20px;
+    }
+    input[type="button"].ftext7{
+        width:120px;
+        height:40px;
+        margin-right:80px;
+        font-size:17px;
+        margin-bottom: -15px;
+    }
+    .ftext8{
+        font-size:20px;
+        padding-top:7px;
+        padding-right:80px;
+    }
+    .bottomhr{
+        width:100%;
+    }
 }
