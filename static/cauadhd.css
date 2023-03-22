@@ -690,3 +690,437 @@ input[type="button"].ftext7{
         width:100%;
     }
 }
+/* for ipad air */
+@media only screen and (max-device-width : 820px) and (max-device-height:1180px){
+    nav{
+        height:165px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:90px;
+        margin-left:20px;
+    }
+    nav ul li{
+        line-height:80px;
+        margin:0 27.5px;
+    }
+    nav ul li a{
+        font-size:22.5px;
+    }
+    .logo{
+        display:none;
+    }
+    .contact{
+        line-height: 5px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-right:20px;
+        margin-left: 140px;
+    }
+    .active{
+        padding: 6px 8px;
+    }
+    .drop_icon{
+        font-size:15px;
+    }
+    hr{
+        width:100%;
+    }
+    .heading{
+        font-size: 26px;
+    }
+    .myhr{
+        width: 38.9%;
+    }
+    .hr1{
+        width:18.5%;
+    }
+    .hr2{
+        width:14.9%;
+    }
+    .hr3{
+        width:26.2%;
+    }
+    .hr4{
+        width:22.6%;
+    }
+    .hr5{
+        width:16%;
+    }
+    .text1{
+        font-size: 20px;
+    }
+    .text2{
+        padding-top:45px;
+        font-size: 22.5px;
+    }
+    .text3{
+        font-size: 22.5px;
+        padding-top: 40px;
+    }
+    .text4{
+        padding-top:450px;
+        margin-left:55px;
+    }
+    .text5{
+        padding-top:4px;
+        margin-left:55px;
+    }
+    .image{
+        margin-top:25px;
+        margin-right: 50px;
+        height:380px;
+        width:420px;
+        margin-bottom:30px;
+    }
+    .image1{
+        margin-top:45px;
+        margin-left: 170px;
+        height:400px;
+        width:460px;
+        margin-bottom:30px;
+    }
+    .para1{
+        font-size:20px;
+        padding-right:40px;
+    }
+    .para2{
+        font-size:20px;
+        padding-right:40px;
+        margin-left:55px;
+    }
+    .para3{
+        font-size:20px;
+        padding-right:40px;
+        margin-left:55px;
+    }
+    .mylist{
+        font-size:20px;
+        padding-right:40px;
+    }
+    .mylist1{
+        font-size:20px;
+        padding-right:40px;
+    }
+    .modal-content {
+        margin-top: 170px;
+        width: 75%;
+        height: 570px;
+    }
+    footer{
+        height:410px;
+        width: 100%;
+        text-align:center;  
+        padding-top:5px;
+    }
+    .ftext1{
+        padding-top:25px;
+        padding-left:105px;
+        font-size:24px;
+    }
+    .ftext2{
+        padding-top:25px;
+        padding-right:105px;
+        font-size:24px;
+    }
+    #myphone{
+        margin-left:-110px;
+        font-size: 28px;
+    }
+    .ftext3{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:22.5px;
+    }
+    .ftext3_2{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:22.5px;
+    }
+    .github{
+        font-size:28px; 
+        padding-top: 5px;
+        padding-right:125px;
+        
+    }
+    .linkedin{
+        font-size: 28px;
+        padding-top: 5px;
+        padding-right:80px;
+    }
+    .facebook{
+        font-size:28px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .whatsapp{
+        font-size:28px;
+        padding-top: 5px; 
+        padding-right:25px;
+    }
+    .insta{
+        font-size:28px; 
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .ftext4{
+        padding-top:50px;
+        padding-right: 35px;
+        font-size:19px;
+    }
+    input[type="text"].ftext5{
+        margin-right:45px;
+        margin-top:1px;
+        height:40px;
+        width:230px;
+    }
+    input[type="text"].ftext5::placeholder{
+        padding-left:0px;
+        font-size: 15px;
+    }
+    .ftext6{
+        padding-top:15px;
+        padding-right: 50px;
+        font-size:18px;
+    }
+    input[type="button"].ftext7{
+        width:100px;
+        height:40px;
+        margin-right:60px;
+        font-size:15px;
+        margin-bottom: -15px;
+    }
+    .ftext8{
+        font-size:22px;
+        padding-top:7px;
+        padding-right:60px;
+    }
+    .bottomhr{
+        width:100%;
+    }
+}
+/* for iphone SE */
+@media only screen and (max-device-width : 375px) and (max-device-height:667px){
+    nav{
+        height:110px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:45px;
+        margin-left:10px;
+    }
+    nav ul li{
+        margin:0 7px;
+        line-height:50px;
+    }
+    nav ul li a{
+        font-size:12.2px;
+
+    }
+    .logo{
+        display:none;
+    }
+    .contact{
+        line-height: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-right:10px;
+        margin-left:45px;
+    }
+    .active{
+        padding: 4px 4px;
+    }
+    .drop_icon{
+        font-size:10px;
+    }
+    hr{
+        height:7px;
+        width:100%;
+    }
+    #icon{
+        font-size:16px;
+    }
+    .heading{
+        margin-left:15px;
+        font-size: 19px;
+    }
+    .myhr{
+        height:0.6px;
+        width: 71%;
+    }
+    .hr1{
+        height:0.6px;
+        width:34.5%;
+    }
+    .hr2{
+        height:0.6px;
+        width:77.9%;
+    }
+    .hr3{
+        height:0.6px;
+        width:47.5%;
+    }
+    .hr4{
+        height:0.6px;
+        width:46%;
+    }
+    .hr5{
+        height:0.6px;
+        width:32.9%;
+    }
+    .text1{
+        padding-left:40px;
+        font-size: 14px;
+    }
+    .text2{
+        margin-top:5px;
+        font-size: 17px;
+    }
+    .text3{
+        font-size: 17px;
+        padding-top: 20px;
+    }
+    .text4{
+        padding-top:240px;
+        margin-left:55px;
+        font-size: 17px;
+    }
+    .text5{
+        margin-top:30px;
+        font-size:17px;
+    }
+    .image{
+        margin-top:25px;
+        margin-right: 55px;
+        height:200px;
+        width:270px;
+        margin-bottom:30px;
+    }
+    .image1{
+        margin-top:35px;
+        margin-left: 50px;
+        height:200px;
+        width:270px;
+        margin-bottom:30px;
+    }
+    .para1{
+        font-size:15px;
+        padding-right:40px;
+    }
+    .para2{
+        font-size:15px;
+        padding-right:40px;
+    }
+    .para3{
+        font-size:15px;
+        padding-right:40px;
+        margin-bottom:-30px;
+    }
+    .mylist{
+        margin-left:80px;
+        font-size:14px;
+        padding-right:40px;
+    }
+    .mylist1{
+        margin-left:80px;
+        font-size:14px;
+        padding-right:40px;
+    }
+    .modal-content {
+        margin-top: 65px;
+        width: 75%;
+        height: 230px;
+    }
+    footer{
+        height:385px;
+        width: 100%;
+        text-align:center;  
+        padding-top:5px;
+    }
+    .ftext1{
+        padding-top:35px;
+        padding-left:30px;
+        font-size:18px;
+    }
+    .ftext2{
+        padding-top:35px;
+        padding-right:30px;
+        font-size:18px;
+    }
+    #myphone{
+        margin-left:-230px;
+        font-size: 18px;
+    }
+    .ftext3{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:16px;
+    }
+    .ftext3_2{
+        padding-top:1px;
+        padding-left:180px;
+        font-size:16px;
+    }
+    .github{
+        font-size:18px; 
+        padding-top: 5px;
+        padding-right:60px;
+        
+    }
+    .linkedin{
+        font-size: 18px;
+        padding-top: 5px;
+        padding-right:25px;
+    }
+    .facebook{
+        font-size:18px; 
+        padding-top: 5px;
+        padding-right:15px;
+    }
+    .whatsapp{
+        font-size:18px;
+        padding-top: 5px; 
+        padding-right:15px;
+    }
+    .insta{
+        font-size:18px; 
+        padding-top: 5px;
+        padding-right:15px;
+    }
+    .ftext4{
+        padding-top:40px;
+        padding-right: 10px;
+        font-size:15px;
+    }
+    input[type="text"].ftext5{
+        margin-right:10px;
+        margin-top:1px;
+        height:40px;
+        width:250px;
+    }
+    input[type="text"].ftext5::placeholder{
+        padding-left:10px;
+        font-size: 14px;
+    }
+    .ftext6{
+        padding-top:15px;
+        padding-right: 10px;
+        font-size:14.5px;
+    }
+    input[type="button"].ftext7{
+        width:80px;
+        height:40px;
+        margin-right:30px;
+        font-size:13px;
+        margin-bottom: -15px;
+    }
+    .ftext8{
+        font-size:14.5px;
+        padding-top:7px;
+        padding-right:15px;
+    }
+    .bottomhr{
+        width:100%;
+        height:0;
+    }
+}
