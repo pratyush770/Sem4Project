@@ -112,7 +112,7 @@ input[type="text"]::placeholder{
     height: 100px;
     position: absolute;
     top: -55px;
-    left: calc(51% - 50px);
+    left: calc(50% - 50px);
 }
 h1{
     margin-top: 80px;
@@ -352,14 +352,233 @@ span{
         margin-left:105px;
         margin-top: -10px;
         font-size:17px;
-        background:	#3cb371;
-        border:none; 
-        cursor: pointer;
-        border-radius: 30px;
     }
     label{
         font-size:15px;
         margin-left:18px;
     }
+}
+/* for ipad air */
+@media only screen and (max-device-width : 820px) and (max-device-height:1180px){
+    nav{
+        height:165px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:90px;
+        margin-left:20px;
+    }
+    nav ul li{
+        line-height:80px;
+        margin:0 27.5px;
+    }
+    nav ul li a{
+        font-size:22.5px;
+    }
+    .logo{
+        display:none;
+    }
+    .contact{
+        line-height: 5px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-right:20px;
+        margin-left: 140px;
+    }
+    .active{
+        padding: 6px 8px;
+    }
+    .drop_icon{
+        font-size:15px;
+    }
+    .query{
+        font-size:24px;
+        font-family: arial;
+        margin-top: 750px;
+        margin-left: 75px;
+    }
+    .loginbox{
+        width: 400px;
+        height: 480px;
+        top:27%;
+        left:26%;
+    }
+    .avatar{
+        left: calc(49% - 50px);
+        width:110px;
+        height:110px;
+        top: -55px;
+    }
+    h1{
+        margin-top: 75px;
+        margin-bottom:15px;
+        font-size: 20px;
+    }
+    label{
+        font-size:19px;
+        margin-left:25px;
+    }
+    input[type="text"].mytext{
+        margin-left:15px;
+        margin-bottom:6px;
+        height:40px;
+        width:274px;
+        padding-left:20px;
+    }
+    input[type="text"].mytext::placeholder{
+        font-size: 16.5px;
+    }
+    input[type="text"].myage{
+        margin-left:32px;
+        margin-bottom:6px;
+        height:40px;
+        width:274px;
+        padding-left:20px;
+    }
+    input[type="text"].myage::placeholder{
+        font-size: 16.5px;
+    }
+    input[type="text"].myphone{
+        margin-left:10px;
+        margin-bottom:6px;
+        height:40px;
+        width:275px;
+        padding-left:20px;
+    }
+    input[type="text"].myphone::placeholder{
+        font-size: 16.5px;
+    }
+    input[type="email"]{
+        margin-left:15px;
+        margin-bottom:6px;
+        height:40px;
+        width:278px;
+        padding-left:20px;
+    }
+    input[type="email"]::placeholder{
+        font-size: 16.5px;
+    }
+    .mybutton{
+        height:55px;
+        width:120px;
+        margin-left:145px;
+        margin-top: 5px;
+        font-size:22px;
+    }
+}
+/* for iphone SE */
+@media only screen and (max-device-width : 375px) and (max-device-height:667px){
+    nav{
+        height:110px;
+        width:100%;
+    }
+    nav ul{
+        margin-right:45px;
+        margin-left:10px;
+    }
+    nav ul li{
+        margin:0 7px;
+        line-height:50px;
+    }
+    nav ul li a{
+        font-size:12.2px;
 
+    }
+    .logo{
+        display:none;
+    }
+    .contact{
+        line-height: 20px;
+        font-size:14px;
+        margin-right:10px;
+        margin-left:45px;
+    }
+    .active{
+        padding: 4px 4px;
+    }
+    .drop_icon{
+        font-size:10px;
+    }
+    hr{
+        height:7px;
+        width:100%;
+    }
+    .loginbox{
+        width: 250px;
+        height: 435px;
+        top:27%;
+        left:18%;
+    }
+    .avatar{
+        left: calc(54% - 50px);
+        width:80px;
+        height:80px;
+        top: -44px;
+    }
+    h1{
+        margin-top: 55px;
+        margin-bottom:2px;
+        font-size: 17px;
+    }
+    label{
+        font-size:17px;
+        margin-left:18px;
+    }
+    input[type="text"].mytext{
+        margin-left:18px;
+        margin-bottom:6px;
+        margin-top: 4px;
+        height:25px;
+        width:215px;
+        padding-left:20px;
+    }
+    input[type="text"].mytext::placeholder{
+        font-size: 13.5px;
+    }
+    input[type="text"].myage{
+        margin-left:18px;
+        margin-bottom:6px;
+        margin-top: 4px;
+        height:25px;
+        width:215px;
+        padding-left:20px;
+    }
+    input[type="text"].myage::placeholder{
+        font-size: 13.5px;
+    }
+    input[type="text"].myphone{
+        margin-left:18px;
+        margin-bottom:6px;
+        margin-top: 4px;
+        height:25px;
+        width:215px;
+        padding-left:20px;
+    }
+    input[type="text"].myphone::placeholder{
+        font-size: 13.5px;
+    }
+    input[type="email"]{
+        margin-left:18px;
+        margin-bottom:6px;
+        margin-top: 4px;
+        height:27px;
+        width:215px;
+        padding-left:20px;
+    }
+    input[type="email"]::placeholder{
+        font-size: 13.5px;
+    }
+    .mybutton{
+        height:35px;
+        width:90px;
+        margin-left:80px;
+        margin-top: -11px;
+        font-size:18px;
+    }
+    .query{
+        font-size:12.5px;
+        font-family: arial;
+        margin-top: 515px;
+        margin-left: 12px;
+    }
 }
