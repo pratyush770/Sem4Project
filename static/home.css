@@ -981,16 +981,18 @@ input[type="button"].ftext7{
         height: 320px;
     }
     footer{
-        height:370px;
+        height:420px;
         width: 100%;
         text-align:center;  
         padding-top:5px;
     }
     .ftext1{
+        margin-top: 1px;
         padding-left:155px;
         font-size:22px;
     }
     .ftext2{
+        margin-top: 1px;
         padding-right:155px;
         font-size:22px;
     }
@@ -1035,17 +1037,18 @@ input[type="button"].ftext7{
         padding-right:25px;
     }
     .ftext4{
-        padding-right: 350px;
+        padding-right: 50px;
         font-size:19px;
+        padding-top:50px;
     }
     input[type="text"].ftext5{
-        margin-right:75px;
+        margin-right:55px;
         margin-top:1px;
         height:40px;
         width:320px;
     }
     input[type="text"].ftext5::placeholder{
-        padding-left:30px;
+        padding-left:50px;
         font-size: 16px;
     }
     .ftext6{
@@ -1055,14 +1058,14 @@ input[type="button"].ftext7{
     input[type="button"].ftext7{
         width:120px;
         height:40px;
-        margin-right:80px;
+        margin-right:60px;
         font-size:17px;
         margin-bottom: -15px;
     }
     .ftext8{
         font-size:20px;
         padding-top:7px;
-        padding-right:80px;
+        padding-right:60px;
     }
     .bottomhr{
         width:100%;
@@ -1220,7 +1223,7 @@ input[type="button"].ftext7{
         height: 570px;
     }
     footer{
-        height:410px;
+        height:425px;
         width: 100%;
         text-align:center;  
         padding-top:5px;
@@ -1276,36 +1279,36 @@ input[type="button"].ftext7{
         padding-right:25px;
     }
     .ftext4{
-        padding-top:50px;
-        padding-right: 35px;
+        padding-top:60px;
+        padding-right: 15px;
         font-size:19px;
     }
     input[type="text"].ftext5{
-        margin-right:45px;
+        margin-right:25px;
         margin-top:1px;
         height:40px;
-        width:230px;
+        width:340px;
     }
     input[type="text"].ftext5::placeholder{
-        padding-left:0px;
-        font-size: 15px;
+        padding-left:40px;
+        font-size: 16.6px;
     }
     .ftext6{
         padding-top:15px;
-        padding-right: 50px;
+        padding-right: 30px;
         font-size:18px;
     }
     input[type="button"].ftext7{
         width:100px;
         height:40px;
-        margin-right:60px;
+        margin-right:40px;
         font-size:15px;
         margin-bottom: -15px;
     }
     .ftext8{
         font-size:22px;
         padding-top:7px;
-        padding-right:60px;
+        padding-right:40px;
     }
     .bottomhr{
         width:100%;
@@ -1553,9 +1556,9 @@ input[type="button"].ftext7{
         margin-bottom: -15px;
     }
     .ftext8{
-        font-size:14.5px;
+        font-size:15.5px;
         padding-top:7px;
-        padding-right:15px;
+        padding-right:5px;
     }
     .bottomhr{
         width:100%;

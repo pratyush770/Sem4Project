@@ -127,7 +127,7 @@ input[type="text"].mytext{
     margin-left:10px;
     margin-bottom:6px;
     height:30px;
-    width:250px;
+    width:255px;
     padding-left:20px;
     outline:none;
 }
@@ -138,7 +138,7 @@ input[type="text"].myage{
     margin-left:26px;
     margin-bottom:6px;
     height:30px;
-    width:250px;
+    width:254px;
     font-size:16px;
     padding-left:20px;
     outline:none;
@@ -150,7 +150,7 @@ input[type="text"].myphone{
     margin-left:6px;
     margin-bottom:6px;
     height:30px;
-    width:250px;
+    width:254px;
     font-size:16px;
     padding-left:20px;
     outline:none;
@@ -159,9 +159,9 @@ input[type="text"].myphone::placeholder{
     font-size: 15px;
 }
 input[type="email"]{
-    margin-left:13px;
-    height:30px;
-    width:250px;
+    margin-left:12px;
+    height:32px;
+    width:255px;
     font-size:17px;
     padding-left:20px;
     outline:none;
@@ -339,7 +339,7 @@ span{
     input[type="email"]{
         margin-left:15px;
         margin-bottom:6px;
-        height:25px;
+        height:27px;
         width:205px;
         padding-left:20px;
     }
@@ -392,16 +392,16 @@ span{
         font-size:15px;
     }
     .query{
-        font-size:24px;
+        font-size:25px;
         font-family: arial;
-        margin-top: 750px;
-        margin-left: 75px;
+        margin-top: 790px;
+        margin-left: 60px;
     }
     .loginbox{
-        width: 400px;
-        height: 480px;
+        width: 500px;
+        height: 520px;
         top:27%;
-        left:26%;
+        left:20%;
     }
     .avatar{
         left: calc(49% - 50px);
@@ -410,60 +410,60 @@ span{
         top: -55px;
     }
     h1{
-        margin-top: 75px;
+        margin-top: 85px;
         margin-bottom:15px;
-        font-size: 20px;
+        font-size: 23px;
     }
     label{
-        font-size:19px;
+        font-size:22px;
         margin-left:25px;
     }
     input[type="text"].mytext{
         margin-left:15px;
         margin-bottom:6px;
-        height:40px;
-        width:274px;
+        height:45px;
+        width:369px;
         padding-left:20px;
     }
     input[type="text"].mytext::placeholder{
-        font-size: 16.5px;
+        font-size: 19px;
     }
     input[type="text"].myage{
-        margin-left:32px;
+        margin-left:34px;
         margin-bottom:6px;
-        height:40px;
-        width:274px;
+        height:45px;
+        width:370px;
         padding-left:20px;
     }
     input[type="text"].myage::placeholder{
-        font-size: 16.5px;
+        font-size: 19px;
     }
     input[type="text"].myphone{
         margin-left:10px;
         margin-bottom:6px;
-        height:40px;
-        width:275px;
+        height:45px;
+        width:369px;
         padding-left:20px;
     }
     input[type="text"].myphone::placeholder{
-        font-size: 16.5px;
+        font-size: 19px;
     }
     input[type="email"]{
-        margin-left:15px;
+        margin-left:17px;
         margin-bottom:6px;
-        height:40px;
-        width:278px;
+        height:47px;
+        width:371px;
         padding-left:20px;
     }
     input[type="email"]::placeholder{
-        font-size: 16.5px;
+        font-size: 19px;
     }
     .mybutton{
-        height:55px;
-        width:120px;
-        margin-left:145px;
+        height:65px;
+        width:140px;
+        margin-left:175px;
         margin-top: 5px;
-        font-size:22px;
+        font-size:25px;
     }
 }
 /* for iphone SE */
@@ -505,7 +505,7 @@ span{
     }
     .loginbox{
         width: 250px;
-        height: 435px;
+        height: 430px;
         top:27%;
         left:18%;
     }
@@ -521,7 +521,7 @@ span{
         font-size: 17px;
     }
     label{
-        font-size:17px;
+        font-size:16px;
         margin-left:18px;
     }
     input[type="text"].mytext{
@@ -561,7 +561,7 @@ span{
         margin-left:18px;
         margin-bottom:6px;
         margin-top: 4px;
-        height:27px;
+        height:29px;
         width:215px;
         padding-left:20px;
     }
