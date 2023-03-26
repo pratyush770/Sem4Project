@@ -606,24 +606,24 @@ input[type="button"].ftext7{
         width:320px;
     }
     input[type="text"].ftext5::placeholder{
-        padding-left:50px;
+        padding-left:30px;
         font-size: 16px;
     }
     .ftext6{
-        padding-right: 70px;
+        padding-right: 60px;
         font-size:20px;
     }
     input[type="button"].ftext7{
         width:120px;
         height:40px;
-        margin-right:60px;
+        margin-right:65px;
         font-size:17px;
         margin-bottom: -15px;
     }
     .ftext8{
         font-size:20px;
         padding-top:7px;
-        padding-right:60px;
+        padding-right:50px;
     }
     .bottomhr{
         width:100%;
