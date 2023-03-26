@@ -195,96 +195,96 @@ img{
     color:rgb(0, 0, 0);
 }
 footer{
-    height:41rem;
+    height:410px;
     left: 0;
     bottom: 0;
-    width: 151.9rem;
+    width: 100%;
     background-color:#ebebeb;
     color: white;
     text-align:center;  
-    padding-top:0.5rem;
+    padding-top:5px;
 }
 .ftext1{
     display: inline;
     font-family:arial;
-    padding-top:3rem;
-    padding-left:20rem;
-    font-size:2.4rem;
+    padding-top:30px;
+    padding-left:200px;
+    font-size:24px;
     float:left;
     color: #17a2b8;
 }
 
 .ftext2{
     font-family:arial;
-    padding-top:3rem;
-    padding-right:20rem;
-    font-size:2.4rem;
+    padding-top:30px;
+    padding-right:200px;
+    font-size:24px;
     float:right;
     color: #17a2b8;
 }
 #myphone{
-    padding-left:1rem;
+    padding-left:10px;
 }
 .ftext3{
     display: inline;
     color:#17a2b8;
     font-family:arial;
-    padding-top:1rem;
-    padding-left:18rem;
-    font-size:2rem;
+    padding-top:10px;
+    padding-left:180px;
+    font-size:20px;
     float: left;
 }
 .ftext3_2{
     display: inline;
     color:#17a2b8;
     font-family:arial;
-    padding-top:2rem;
-    padding-left:18rem;
+    padding-top:20px;
+    padding-left:180px;
     float:left;
-    font-size:2rem;
+    font-size:20px;
 }
 .linkedin{
     float:right;
-    font-size: 4rem;
-    padding-top: 3.5rem;
-    padding-right:1rem;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-right:160px;
     color:#0077b5;
 }
 .github{
     float:right;
-    font-size:4rem; 
-    padding-top: 3.5rem;
-    padding-right:1.6rem;
+    font-size:40px; 
+    padding-top: 5px;
+    padding-right:18px;
     color: #666666;
 }
 .facebook{
     float:right;
-    font-size:4rem; 
-    padding-top: 3.5rem;
-    padding-right:1.8rem;
+    font-size:40px; 
+    padding-top: 5px;
+    padding-right:18px;
     color:#4267B2;
 }
 .whatsapp{
     float:right;
-    font-size:4rem; 
-    padding-top: 3.5rem;
-    padding-right:1.8rem;
+    font-size:40px;
+    padding-top: 5px; 
+    padding-right:18px;
     color:#25D366;
 }
 .insta{
     float:right;
-    font-size:4rem; 
-    padding-top: 3.5rem;
-    padding-right:1.8rem;
+    font-size:40px; 
+    padding-top: 5px;
+    padding-right:18px;
     color:#C13584;
 }
 .ftext4{
     color:#17a2b8;
     font-weight: normal;
     font-family:arial;
-    padding-top:10rem;
-    padding-right: 42re,;
-    font-size:2rem;
+    padding-top:20px;
+    padding-right: 420px;
+    font-size:20px;
 }
 input[type="text"].ftext5{
     margin-right:95px;
