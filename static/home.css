@@ -562,7 +562,7 @@ input[type="text"].ftext5::placeholder{
     font-weight: normal;
     font-family:arial;
     padding-top:25px;
-    padding-right: 130px;
+    padding-right: 100px;
     font-size:19px;
 }
 input[type="button"].ftext7{
